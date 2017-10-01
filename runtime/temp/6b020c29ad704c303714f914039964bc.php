@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:76:"/Users/yanglong/phpProject/JSControl/application/admin/view/index.index.html";i:1506619972;s:75:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.main.html";i:1506619972;s:79:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.main.top.html";i:1506619972;s:80:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.main.left.html";i:1506619972;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:76:"/Users/yanglong/phpProject/JSControl/application/admin/view/index.index.html";i:1506619972;s:75:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.main.html";i:1506619972;s:79:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.main.top.html";i:1506869884;s:80:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.main.left.html";i:1506619972;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
     <head>
@@ -25,7 +25,7 @@
             <div class="topbar-head topbar-left">
                 <a href="<?php echo url('@admin'); ?>" class="topbar-logo topbar-left">
                     <span class="icon-logo">
-                        <?php echo sysconf('app_name'); ?> <sup><?php echo sysconf('app_version'); ?></sup>
+                        APP管理中心
                     </span>
                 </a>
             </div>

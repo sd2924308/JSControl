@@ -1,0 +1,57 @@
+---------------------------------------------------------------
+[ 2017-10-02T00:02:06+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ error ] [1]Class 'app\api\controller\Db' not found[/Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php:14]
+---------------------------------------------------------------
+[ 2017-10-02T00:02:08+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ error ] [1]Class 'app\api\controller\Db' not found[/Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php:14]
+---------------------------------------------------------------
+[ 2017-10-02T00:03:22+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ error ] [1]Class 'Db' not found[/Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php:14]
+---------------------------------------------------------------
+[ 2017-10-02T00:03:31+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ error ] [1]Class 'thinl\Db' not found[/Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php:14]
+---------------------------------------------------------------
+[ 2017-10-02T00:03:36+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ error ] [8]Array to string conversion[/Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php:15]
+---------------------------------------------------------------
+[ 2017-10-02T00:04:02+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ error ] [4]语法错误: unexpected '}', expecting ',' or ';'[/Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php:16]
+---------------------------------------------------------------
+[ 2017-10-02T00:04:07+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ error ] [1]Class 'app\api\controller\Db' not found[/Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php:14]
+---------------------------------------------------------------
+[ 2017-10-02T00:04:17+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ error ] [1]Call to undefined method app\api\controller\Whereis::_list()[/Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php:15]
+---------------------------------------------------------------
+[ 2017-10-02T00:06:10+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ error ] [8]Use of undefined constant count - assumed 'count'[/Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php:15]
+---------------------------------------------------------------
+[ 2017-10-02T00:06:17+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ error ] [0]variable type error： array[/Users/yanglong/phpProject/JSControl/thinkphp/library/think/Response.php:318]
+---------------------------------------------------------------
+[ 2017-10-02T00:06:46+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ error ] [8]Use of undefined constant length - assumed 'length'[/Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php:15]
+---------------------------------------------------------------
+[ 2017-10-02T00:06:50+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ error ] [8]Use of undefined constant count - assumed 'count'[/Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php:15]
+---------------------------------------------------------------
+[ 2017-10-02T00:13:53+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ error ] [8]Array to string conversion[/Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php:21]
+---------------------------------------------------------------
+[ 2017-10-02T00:14:14+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ error ] [0]variable type error： object[/Users/yanglong/phpProject/JSControl/thinkphp/library/think/Response.php:318]
+---------------------------------------------------------------
+[ 2017-10-02T00:15:29+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ error ] [0]variable type error： boolean[/Users/yanglong/phpProject/JSControl/thinkphp/library/think/Response.php:318]
+---------------------------------------------------------------
+[ 2017-10-02T00:17:49+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php:21]
+---------------------------------------------------------------
+[ 2017-10-02T00:17:56+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php:21]
+---------------------------------------------------------------
+[ 2017-10-02T00:17:58+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php:21]
+---------------------------------------------------------------
+[ 2017-10-02T00:18:06+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[/Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php:23]

@@ -16,9 +16,10 @@ namespace app\wechat\controller;
 
 use controller\BasicAdmin;
 use service\DataService;
-use service\LogService;
-use service\WechatService;
+use service\ToolsService;
 use think\Db;
+
+
 
 /**
  * 微信粉丝标签管理
@@ -34,7 +35,7 @@ class Tags extends BasicAdmin
      * 定义当前默认数据表
      * @var string
      */
-    public $table = 'WechatFansTags';
+    public $table = 'AppTable';
 
     /**
      * 显示粉丝标签列表
@@ -42,15 +43,32 @@ class Tags extends BasicAdmin
      */
     public function index()
     {
-        $this->title = '微信粉丝标签管理';
+        $this->title = '应用管理';
         $get = $this->request->get();
         $db = Db::name($this->table)->order('id asc');
-        foreach (['name'] as $key) {
+        foreach (['appname','colurl','center'] as $key) {
             if (isset($get[$key]) && $get[$key] !== '') {
                 $db->where($key, 'like', "%{$get[$key]}%");
             }
         }
+
+        if(session('user.username')!='admin')
+            $db->where('username',session('user.username'));
         return parent::_list($db);
+    }
+
+
+
+    public function _form_filter(&$data)
+    {
+        if ($this->request->isPost()) {
+            if (Db::name($this->table)->where(['colurl' => $data['colurl']])->find()) {
+                $this->error('这个控制ID已经使用过了,请更换!');
+            }
+        }else{
+            $data['user'] = explode(',', isset($data['user']) ? $data['user'] : '');
+            $this->assign('users', Db::name('SystemUser')->where(['is_deleted' => '0'])->select());
+        }
     }
 
     /**
@@ -58,19 +76,7 @@ class Tags extends BasicAdmin
      */
     public function add()
     {
-        if ($this->request->isGet()) {
-            return parent::_form($this->table, 'form', 'id');
-        }
-        $name = $this->request->post('name', '');
-        empty($name) && $this->error('粉丝标签名不能为空!');
-        (Db::name($this->table)->where('name', $name)->count() > 0) && $this->error('粉丝标签标签名已经存在, 请使用其它标签名!');
-        $wechat = load_wechat('User');
-        if (false === ($result = $wechat->createTags($name)) && isset($result['tag'])) {
-            $this->error("添加粉丝标签失败. {$wechat->errMsg}[{$wechat->errCode}]");
-        }
-        $result['tag']['count'] = 0;
-        DataService::save($this->table, $result['tag'], 'id') && $this->success('添加粉丝标签成功!', '');
-        $this->error('粉丝标签添加失败, 请稍候再试!');
+        return $this->_form($this->table, 'form');
     }
 
     /**
@@ -78,38 +84,42 @@ class Tags extends BasicAdmin
      */
     public function edit()
     {
-        // 显示编辑界面
-        if ($this->request->isGet()) {
-            return parent::_form($this->table, 'form', 'id');
-        }
-        // 接收提交的数据
-        list($name, $id) = [$this->request->post('name', ''), $this->request->post('id', '0')];
-        $info = Db::name($this->table)->where('name', $name)->find();
-        if (!empty($info)) {
-            if (intval($info['id']) === intval($id)) {
-                $this->error('粉丝标签名没有改变, 无需修改!');
-            }
-            $this->error('标签已经存在, 使用其它名称再试!');
-        }
-        $wechat = load_wechat('User');
-        $data = ['id' => $id, 'name' => $name];
-        if (false !== $wechat->updateTag($id, $name) && false !== DataService::save($this->table, $data, 'id')) {
-            $this->success('编辑标签成功!', '');
-        }
-        $this->error('编辑标签失败, 请稍后再试!' . $wechat->errMsg);
+        return $this->_form($this->table, 'form');
     }
 
-    /**
-     * 同步粉丝标签列表
+ /**
+     * 删除
      */
-    public function sync()
+     public function del()
+     {
+         if (DataService::update($this->table)) {
+             $this->success("删除成功！", '');
+         }
+         $this->error("删除失败，请稍候再试！");
+     }
+
+
+    /**
+     * 停用
+     */
+     public function forbid()
+     {
+         if (DataService::update($this->table)) {
+             $this->success("停用成功！", '');
+         }
+         $this->error("停用失败，请稍候再试！!");
+     }
+
+
+      /**
+     * 权限恢复
+     */
+    public function resume()
     {
-        Db::name($this->table)->where('1=1')->delete();
-        if (WechatService::syncFansTags()) {
-            LogService::write('微信管理', '同步全部微信粉丝标签成功');
-            $this->success('同步获取所有粉丝标签成功!', '');
+        if (DataService::update($this->table)) {
+            $this->success("启用成功！", '');
         }
-        $this->error('同步获取粉丝标签失败, 请稍候再!');
+        $this->error("启用失败，请稍候再试！");
     }
 
 }

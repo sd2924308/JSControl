@@ -1,0 +1,514 @@
+---------------------------------------------------------------
+[ 2017-10-02T00:02:06+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002615s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002272s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000798s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:02:08+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000651s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001158s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000543s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:02:23+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001385s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001137s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000556s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:03:22+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000750s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000873s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000438s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:03:31+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000589s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000937s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000581s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:03:36+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000647s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000953s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.000758s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:04:07+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000626s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000787s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000438s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:04:17+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000943s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001167s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000917s ]
+[ sql ] [ SQL ] select * from app_table where id='123' [ RunTime:0.000840s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:04:29+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000527s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] select * from app_table where id='123' [ RunTime:0.000520s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:04:42+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006618s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004593s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.042336s ]
+[ sql ] [ SQL ] select * from app_table where id='2008' [ RunTime:0.000794s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:04:43+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] select * from app_table where id='2008' [ RunTime:0.000665s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:04:51+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000590s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000554s ]
+[ sql ] [ SQL ] select * from app_table where colurl='2008' [ RunTime:0.000887s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:05:41+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001085s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001068s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000724s ]
+[ sql ] [ SQL ] select * from app_table where colurl='2008' [ RunTime:0.000648s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:06:10+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000545s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000499s ]
+[ sql ] [ SQL ] select * from app_table where colurl='2008' [ RunTime:0.000583s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:06:17+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002824s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001630s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000606s ]
+[ sql ] [ SQL ] select * from app_table where colurl='2008' [ RunTime:0.000601s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:06:46+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000756s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000468s ]
+[ sql ] [ SQL ] select * from app_table where colurl='2008' [ RunTime:0.000594s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:06:50+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000992s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000817s ]
+[ sql ] [ SQL ] select * from app_table where colurl='2008' [ RunTime:0.000512s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:09:04+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001505s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001632s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` > '2008' [ RunTime:0.000455s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:09:15+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000638s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000831s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:09:28+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000567s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001312s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT status as showurl,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:09:35+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000573s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000441s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:10:22+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000517s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000451s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:10:55+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000611s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.002095s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:13:53+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000716s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:14:07+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005574s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001616s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:14:14+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000506s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000871s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:14:24+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001305s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001616s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:14:50+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000600s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000791s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.001227s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:14:52+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000548s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000381s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:14:55+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000530s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000527s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:15:21+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000556s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.001138s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000538s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:15:29+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000619s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:15:36+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000579s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.002106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000370s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:15:44+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000613s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001340s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000305s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:15:53+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000680s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000914s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.002846s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000560s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:16:01+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000623s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:17:49+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000463s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:17:56+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000530s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000348s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:17:58+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000510s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000433s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:18:06+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000464s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.001310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000455s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:18:21+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000548s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000694s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:18:43+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000798s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003991s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:18:47+08:00 ] ::1 ::1 POST /wechat/tags/resume.html?spm=m-61-66
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000562s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001291s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/tags/resume' LIMIT 1 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000919s ]
+[ sql ] [ SQL ] UPDATE `app_table`  SET `status`=1  WHERE  `id` IN (4) [ RunTime:0.002915s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:18:49+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000531s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.001185s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:18:50+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001759s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003021s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/tags/index' LIMIT 1 [ RunTime:0.001494s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `app_table` WHERE  `username` = 'test' LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `app_table` WHERE  `username` = 'test' ORDER BY id asc LIMIT 0,20 [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000433s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:18:53+08:00 ] ::1 ::1 POST /wechat/tags/forbid.html?spm=m-61-66
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001661s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001667s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/tags/forbid' LIMIT 1 [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000684s ]
+[ sql ] [ SQL ] UPDATE `app_table`  SET `status`=0  WHERE  `id` IN (4) [ RunTime:0.000976s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:18:55+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000463s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.001607s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:18:56+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000490s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/tags/index' LIMIT 1 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `app_table` WHERE  `username` = 'test' LIMIT 1 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `app_table` WHERE  `username` = 'test' ORDER BY id asc LIMIT 0,20 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000563s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:18:59+08:00 ] ::1 ::1 POST /wechat/tags/resume.html?spm=m-61-66
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000543s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/tags/resume' LIMIT 1 [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] UPDATE `app_table`  SET `status`=1  WHERE  `id` IN (4) [ RunTime:0.001864s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:19:01+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000539s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/tags/index' LIMIT 1 [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `app_table` WHERE  `username` = 'test' LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT * FROM `app_table` WHERE  `username` = 'test' ORDER BY id asc LIMIT 0,20 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.001162s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000439s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:19:01+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000568s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.002096s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:20:07+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000669s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:20:08+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000519s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001227s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10001 LIMIT 1 [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (2)  AND `status` = 1 [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth_node` [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT `node` FROM `system_auth_node` WHERE  `auth` IN (2) [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT `node` FROM `system_node` WHERE  `is_auth` = 1 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000895s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.005244s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:20:09+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000505s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/tags/index' LIMIT 1 [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.002014s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `app_table` WHERE  `username` = 'test' LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `app_table` WHERE  `username` = 'test' ORDER BY id asc LIMIT 0,20 [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000429s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:20:12+08:00 ] ::1 ::1 POST /wechat/tags/forbid.html?spm=m-61-66
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000738s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/tags/forbid' LIMIT 1 [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000829s ]
+[ sql ] [ SQL ] UPDATE `app_table`  SET `status`=0  WHERE  `id` IN (4) [ RunTime:0.003788s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:20:15+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002462s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003739s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/tags/index' LIMIT 1 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `app_table` WHERE  `username` = 'test' LIMIT 1 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `app_table` WHERE  `username` = 'test' ORDER BY id asc LIMIT 0,20 [ RunTime:0.006641s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:21:18+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000503s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.001137s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10001 LIMIT 1 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (2)  AND `status` = 1 [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth_node` [ RunTime:0.001457s ]
+[ sql ] [ SQL ] SELECT `node` FROM `system_auth_node` WHERE  `auth` IN (2) [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT `node` FROM `system_node` WHERE  `is_auth` = 1 [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000398s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:21:18+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001169s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002670s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/tags/index' LIMIT 1 [ RunTime:0.001034s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000857s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `app_table` WHERE  `username` = 'test' LIMIT 1 [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT * FROM `app_table` WHERE  `username` = 'test' ORDER BY id asc LIMIT 0,20 [ RunTime:0.001247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000417s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:21:21+08:00 ] ::1 ::1 POST /wechat/tags/resume.html?spm=m-61-66
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000492s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002029s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/tags/resume' LIMIT 1 [ RunTime:0.001379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000637s ]
+[ sql ] [ SQL ] UPDATE `app_table`  SET `status`=1  WHERE  `id` IN (4) [ RunTime:0.000648s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:21:23+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000547s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/tags/index' LIMIT 1 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `app_table` WHERE  `username` = 'test' LIMIT 1 [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT * FROM `app_table` WHERE  `username` = 'test' ORDER BY id asc LIMIT 0,20 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:21:24+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000552s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000831s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2008' [ RunTime:0.000985s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:21:32+08:00 ] ::1 ::1 GET /wechat/tags/edit.html?id=4&spm=m-61-66&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000551s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/tags/edit' LIMIT 1 [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.001129s ]
+[ sql ] [ SQL ] SELECT * FROM `app_table` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.001232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.003064s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `is_deleted` = 0 [ RunTime:0.000797s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:21:36+08:00 ] ::1 ::1 POST /wechat/tags/edit.html?id=4&spm=m-61-66&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000487s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/tags/edit' LIMIT 1 [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.001336s ]
+[ sql ] [ SQL ] SELECT * FROM `app_table` WHERE  `colurl` = '2017273' LIMIT 1 [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `app_table` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] UPDATE `app_table`  SET `appname`='时时彩助手',`colurl`='2017273',`appid`='com.cheng.zhangsanfs',`tourl`='http://www.baidu.com',`center`='VIVO',`username`='test',`appurl`='http://www.baidu.com',`id`=4  WHERE  `id` = 4 [ RunTime:0.002671s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:21:39+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000524s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/tags/index' LIMIT 1 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.001640s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `app_table` WHERE  `username` = 'test' LIMIT 1 [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT * FROM `app_table` WHERE  `username` = 'test' ORDER BY id asc LIMIT 0,20 [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000316s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:21:40+08:00 ] ::1 ::1 GET /api/whereis?id=2017273
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000496s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2017273' [ RunTime:0.002921s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:21:43+08:00 ] ::1 ::1 POST /wechat/tags/forbid.html?spm=m-61-66
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000477s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/tags/forbid' LIMIT 1 [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] UPDATE `app_table`  SET `status`=0  WHERE  `id` IN (4) [ RunTime:0.001572s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:21:44+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000578s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/tags/index' LIMIT 1 [ RunTime:0.004756s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.001117s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `app_table` WHERE  `username` = 'test' LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `app_table` WHERE  `username` = 'test' ORDER BY id asc LIMIT 0,20 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000452s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:21:45+08:00 ] ::1 ::1 GET /api/whereis?id=2017273
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000653s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000914s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.001647s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2017273' [ RunTime:0.001535s ]
+---------------------------------------------------------------
+[ 2017-10-02T00:21:57+08:00 ] ::1 ::1 GET /api/whereis?id=2017273
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000669s ] mysql:host=127.0.0.1;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'api/whereis/index' LIMIT 1 [ RunTime:0.001243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `app_table` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT `status`,`tourl` FROM `app_table` WHERE  `colurl` = '2017273' [ RunTime:0.000377s ]

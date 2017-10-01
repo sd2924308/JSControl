@@ -1,0 +1,2467 @@
+---------------------------------------------------------------
+[ 2017-10-02T00:02:06+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ info ] localhost:8888/api/whereis?id=123 [运行时间：0.079091s][吞吐率：12.64req/s] [内存消耗：3,253.34kb] [文件加载：54]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.024055s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:02:08+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ info ] localhost:8888/api/whereis?id=123 [运行时间：0.064792s][吞吐率：15.43req/s] [内存消耗：3,252.98kb] [文件加载：54]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.022358s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:02:23+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ info ] localhost:8888/api/whereis?id=123 [运行时间：0.061683s][吞吐率：16.21req/s] [内存消耗：3,176.97kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.022595s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:03:22+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ info ] localhost:8888/api/whereis?id=123 [运行时间：0.072351s][吞吐率：13.82req/s] [内存消耗：3,253.28kb] [文件加载：54]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.022527s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:03:31+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ info ] localhost:8888/api/whereis?id=123 [运行时间：0.073750s][吞吐率：13.56req/s] [内存消耗：3,252.92kb] [文件加载：54]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.019385s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:03:36+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ info ] localhost:8888/api/whereis?id=123 [运行时间：0.064280s][吞吐率：15.56req/s] [内存消耗：3,266.96kb] [文件加载：54]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.018876s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:04:02+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ info ] localhost:8888/api/whereis?id=123 [运行时间：0.056964s][吞吐率：17.55req/s] [内存消耗：1,969.37kb] [文件加载：41]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:04:07+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ info ] localhost:8888/api/whereis?id=123 [运行时间：0.075379s][吞吐率：13.27req/s] [内存消耗：3,252.42kb] [文件加载：54]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.022831s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:04:17+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ info ] localhost:8888/api/whereis?id=123 [运行时间：0.060310s][吞吐率：16.58req/s] [内存消耗：3,254.18kb] [文件加载：54]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.017999s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:04:29+08:00 ] ::1 ::1 GET /api/whereis?id=123
+[ info ] localhost:8888/api/whereis?id=123 [运行时间：0.057081s][吞吐率：17.52req/s] [内存消耗：3,179.76kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.018771s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:04:42+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.109336s][吞吐率：9.15req/s] [内存消耗：3,179.87kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.069774s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:04:43+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.037698s][吞吐率：26.53req/s] [内存消耗：3,180.05kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.014324s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:04:51+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.062494s][吞吐率：16.00req/s] [内存消耗：3,181.18kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.023608s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:05:41+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.073679s][吞吐率：13.57req/s] [内存消耗：3,181.45kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.029102s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:06:10+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.066765s][吞吐率：14.98req/s] [内存消耗：3,248.84kb] [文件加载：54]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.018129s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:06:17+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.064729s][吞吐率：15.45req/s] [内存消耗：3,228.67kb] [文件加载：52]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.020919s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:06:46+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.151878s][吞吐率：6.58req/s] [内存消耗：3,248.85kb] [文件加载：54]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.038142s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:06:50+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.060857s][吞吐率：16.43req/s] [内存消耗：3,248.72kb] [文件加载：54]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.018550s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:09:04+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.080731s][吞吐率：12.39req/s] [内存消耗：3,185.77kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.025335s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:09:15+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.063229s][吞吐率：15.82req/s] [内存消耗：3,185.77kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.023055s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:09:28+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.052395s][吞吐率：19.09req/s] [内存消耗：3,185.92kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.018287s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:09:35+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.052163s][吞吐率：19.17req/s] [内存消耗：3,185.89kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.015948s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:10:22+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.059391s][吞吐率：16.84req/s] [内存消耗：3,186.28kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.019011s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:10:55+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.064507s][吞吐率：15.50req/s] [内存消耗：3,186.45kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.021386s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:13:53+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.086307s][吞吐率：11.59req/s] [内存消耗：3,254.08kb] [文件加载：54]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.021815s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:14:07+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.071753s][吞吐率：13.94req/s] [内存消耗：3,186.72kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.028494s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:14:14+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.062350s][吞吐率：16.04req/s] [内存消耗：3,233.63kb] [文件加载：52]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.016458s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:14:24+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.061725s][吞吐率：16.20req/s] [内存消耗：3,186.37kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.024883s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:14:50+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.048134s][吞吐率：20.78req/s] [内存消耗：3,186.50kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.017829s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:14:52+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.054908s][吞吐率：18.21req/s] [内存消耗：3,186.50kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.018877s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:14:55+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.041985s][吞吐率：23.82req/s] [内存消耗：3,186.50kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.014983s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:15:21+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.060877s][吞吐率：16.43req/s] [内存消耗：3,186.50kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.019309s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:15:29+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.071462s][吞吐率：13.99req/s] [内存消耗：3,233.81kb] [文件加载：52]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.019499s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:15:36+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.042655s][吞吐率：23.44req/s] [内存消耗：3,186.96kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.016692s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:15:44+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.044125s][吞吐率：22.66req/s] [内存消耗：3,186.65kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.016802s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:15:53+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.046885s][吞吐率：21.33req/s] [内存消耗：3,186.65kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.015844s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:16:01+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.048410s][吞吐率：20.66req/s] [内存消耗：3,186.76kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.017268s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:17:49+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.071654s][吞吐率：13.96req/s] [内存消耗：3,255.05kb] [文件加载：54]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.020043s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:17:56+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.052671s][吞吐率：18.99req/s] [内存消耗：3,255.02kb] [文件加载：54]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.015053s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:17:58+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.056140s][吞吐率：17.81req/s] [内存消耗：3,255.02kb] [文件加载：54]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.017045s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:18:06+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.049562s][吞吐率：20.18req/s] [内存消耗：3,254.06kb] [文件加载：54]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.016092s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:18:21+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.047067s][吞吐率：21.25req/s] [内存消耗：3,187.10kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.016509s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:18:43+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.048842s][吞吐率：20.47req/s] [内存消耗：3,187.09kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.018375s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:18:47+08:00 ] ::1 ::1 POST /wechat/tags/resume.html?spm=m-61-66
+[ info ] localhost:8888/wechat/tags/resume.html?spm=m-61-66 [运行时间：0.107946s][吞吐率：9.26req/s] [内存消耗：3,469.17kb] [文件加载：59]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'resume',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'content-length' => '25',
+  'accept' => '*/*',
+  'origin' => 'http://localhost:8888',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'field' => 'status',
+  'value' => '1',
+  'id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.017934s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->resume[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:18:49+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.050650s][吞吐率：19.74req/s] [内存消耗：3,187.09kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.015778s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:18:50+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center= [运行时间：0.119000s][吞吐率：8.40req/s] [内存消耗：3,792.29kb] [文件加载：65]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'appname' => '',
+  'colurl' => '',
+  'center' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.029977s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.002360s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:18:53+08:00 ] ::1 ::1 POST /wechat/tags/forbid.html?spm=m-61-66
+[ info ] localhost:8888/wechat/tags/forbid.html?spm=m-61-66 [运行时间：0.073262s][吞吐率：13.65req/s] [内存消耗：3,469.17kb] [文件加载：59]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'forbid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'content-length' => '25',
+  'accept' => '*/*',
+  'origin' => 'http://localhost:8888',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'field' => 'status',
+  'value' => '0',
+  'id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.020166s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->forbid[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:18:55+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.062477s][吞吐率：16.01req/s] [内存消耗：3,186.88kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.022665s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:18:56+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center= [运行时间：0.053478s][吞吐率：18.70req/s] [内存消耗：3,792.27kb] [文件加载：65]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'appname' => '',
+  'colurl' => '',
+  'center' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.014793s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.002759s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:18:59+08:00 ] ::1 ::1 POST /wechat/tags/resume.html?spm=m-61-66
+[ info ] localhost:8888/wechat/tags/resume.html?spm=m-61-66 [运行时间：0.069941s][吞吐率：14.30req/s] [内存消耗：3,469.17kb] [文件加载：59]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'resume',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'content-length' => '25',
+  'accept' => '*/*',
+  'origin' => 'http://localhost:8888',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'field' => 'status',
+  'value' => '1',
+  'id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.012979s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->resume[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:19:01+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center= [运行时间：0.089252s][吞吐率：11.20req/s] [内存消耗：3,792.29kb] [文件加载：65]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'appname' => '',
+  'colurl' => '',
+  'center' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.016037s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.002724s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:19:01+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.053479s][吞吐率：18.70req/s] [内存消耗：3,186.88kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.021564s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:20:07+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.046236s][吞吐率：21.63req/s] [内存消耗：3,187.09kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.018185s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:20:08+08:00 ] ::1 ::1 GET /admin.html
+[ info ] localhost:8888/admin.html [运行时间：0.115855s][吞吐率：8.63req/s] [内存消耗：4,344.48kb] [文件加载：85]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.013978s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/admin/view/index.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000500s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:20:09+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center= [运行时间：0.118992s][吞吐率：8.40req/s] [内存消耗：4,007.48kb] [文件加载：67]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506873478; rows=20; menu-style=full',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'appname' => '',
+  'colurl' => '',
+  'center' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.021616s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.002218s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:20:12+08:00 ] ::1 ::1 POST /wechat/tags/forbid.html?spm=m-61-66
+[ info ] localhost:8888/wechat/tags/forbid.html?spm=m-61-66 [运行时间：0.077042s][吞吐率：12.98req/s] [内存消耗：3,469.02kb] [文件加载：59]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'forbid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'content-length' => '25',
+  'accept' => '*/*',
+  'origin' => 'http://localhost:8888',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; menu-style=full; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506874809; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'field' => 'status',
+  'value' => '0',
+  'id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.018813s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->forbid[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:20:15+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center= [运行时间：0.074059s][吞吐率：13.50req/s] [内存消耗：3,792.30kb] [文件加载：65]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; menu-style=full; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506874809; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'appname' => '',
+  'colurl' => '',
+  'center' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.018373s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.002059s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:21:18+08:00 ] ::1 ::1 GET /admin.html
+[ info ] localhost:8888/admin.html [运行时间：0.119021s][吞吐率：8.40req/s] [内存消耗：4,344.35kb] [文件加载：85]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; menu-style=full; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506874809; rows=20',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.017059s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/admin/view/index.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000681s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:21:18+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center= [运行时间：0.111355s][吞吐率：8.98req/s] [内存消耗：4,007.73kb] [文件加载：67]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; rows=20; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506874878; menu-style=full',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'appname' => '',
+  'colurl' => '',
+  'center' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.023401s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001987s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:21:21+08:00 ] ::1 ::1 POST /wechat/tags/resume.html?spm=m-61-66
+[ info ] localhost:8888/wechat/tags/resume.html?spm=m-61-66 [运行时间：0.075992s][吞吐率：13.16req/s] [内存消耗：3,469.02kb] [文件加载：59]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'resume',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'content-length' => '25',
+  'accept' => '*/*',
+  'origin' => 'http://localhost:8888',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506874878; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'field' => 'status',
+  'value' => '1',
+  'id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.017367s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->resume[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:21:23+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center= [运行时间：0.067096s][吞吐率：14.90req/s] [内存消耗：3,792.32kb] [文件加载：65]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506874878; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'appname' => '',
+  'colurl' => '',
+  'center' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.017553s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.002067s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:21:24+08:00 ] ::1 ::1 GET /api/whereis?id=2008
+[ info ] localhost:8888/api/whereis?id=2008 [运行时间：0.062029s][吞吐率：16.12req/s] [内存消耗：3,186.88kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506874878; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2008',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.026338s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:21:32+08:00 ] ::1 ::1 GET /wechat/tags/edit.html?id=4&spm=m-61-66&open_type=modal
+[ info ] localhost:8888/wechat/tags/edit.html?id=4&spm=m-61-66&open_type=modal [运行时间：0.087718s][吞吐率：11.40req/s] [内存消耗：3,530.77kb] [文件加载：60]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506874878; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+  'spm' => 'm-61-66',
+  'open_type' => 'modal',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.017251s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->edit[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.form.html [ array (
+  0 => 'classuri',
+  1 => 'users',
+  2 => 'vo',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.002186s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:21:36+08:00 ] ::1 ::1 POST /wechat/tags/edit.html?id=4&spm=m-61-66&open_type=modal
+[ info ] localhost:8888/wechat/tags/edit.html?id=4&spm=m-61-66&open_type=modal [运行时间：0.109016s][吞吐率：9.17req/s] [内存消耗：3,529.85kb] [文件加载：60]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'content-length' => '193',
+  'accept' => '*/*',
+  'origin' => 'http://localhost:8888',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506874878; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+  'spm' => 'm-61-66',
+  'open_type' => 'modal',
+  'appname' => '时时彩助手',
+  'colurl' => '2017273',
+  'appid' => 'com.cheng.zhangsanfs',
+  'tourl' => 'http://www.baidu.com',
+  'center' => 'VIVO',
+  'username' => 'test',
+  'appurl' => 'http://www.baidu.com',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.033582s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->edit[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:21:39+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center= [运行时间：0.074671s][吞吐率：13.39req/s] [内存消耗：3,792.27kb] [文件加载：65]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506874878; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'appname' => '',
+  'colurl' => '',
+  'center' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.018313s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001798s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:21:40+08:00 ] ::1 ::1 GET /api/whereis?id=2017273
+[ info ] localhost:8888/api/whereis?id=2017273 [运行时间：0.055499s][吞吐率：18.02req/s] [内存消耗：3,186.87kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506874878; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2017273',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.014838s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:21:43+08:00 ] ::1 ::1 POST /wechat/tags/forbid.html?spm=m-61-66
+[ info ] localhost:8888/wechat/tags/forbid.html?spm=m-61-66 [运行时间：0.080091s][吞吐率：12.49req/s] [内存消耗：3,469.17kb] [文件加载：59]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'forbid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'content-length' => '25',
+  'accept' => '*/*',
+  'origin' => 'http://localhost:8888',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506874878; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'field' => 'status',
+  'value' => '0',
+  'id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.016742s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->forbid[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:21:44+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center= [运行时间：0.099045s][吞吐率：10.10req/s] [内存消耗：3,792.24kb] [文件加载：65]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506874878; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'appname' => '',
+  'colurl' => '',
+  'center' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.021503s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.002560s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:21:45+08:00 ] ::1 ::1 GET /api/whereis?id=2017273
+[ info ] localhost:8888/api/whereis?id=2017273 [运行时间：0.055009s][吞吐率：18.18req/s] [内存消耗：3,186.87kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506874878; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2017273',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.019913s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:21:57+08:00 ] ::1 ::1 GET /api/whereis?id=2017273
+[ info ] localhost:8888/api/whereis?id=2017273 [运行时间：0.052794s][吞吐率：18.94req/s] [内存消耗：3,186.89kb] [文件加载：50]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'whereis',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506874878; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2017273',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.019722s ]
+[ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
+[ info ] [ LOG ] INIT File
