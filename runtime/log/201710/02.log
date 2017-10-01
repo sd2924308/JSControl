@@ -2465,3 +2465,1495 @@
 [ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.019722s ]
 [ info ] [ RUN ] app\api\controller\Whereis->index[ /Users/yanglong/phpProject/JSControl/application/api/controller/Whereis.php ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:25:23+08:00 ] ::1 ::1 GET /admin.html
+[ info ] localhost:8888/admin.html [运行时间：0.143972s][吞吐率：6.95req/s] [内存消耗：4,311.25kb] [文件加载：85]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506870776; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; menu-style=full; rows=20; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'referer' => 'http://localhost:8888/admin/login.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.028747s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/admin/view/index.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000705s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:25:23+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=2&spm=m-2-19
+[ info ] localhost:8888/admin/auth/apply.html?id=2&spm=m-2-19 [运行时间：0.087287s][吞吐率：11.46req/s] [内存消耗：3,415.01kb] [文件加载：56]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506870776; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; menu-style=full; rows=20; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'spm' => 'm-2-19',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:25:24+08:00 ] ::1 ::1 GET /admin/login.html
+[ info ] localhost:8888/admin/login.html [运行时间：0.059681s][吞吐率：16.76req/s] [内存消耗：3,538.95kb] [文件加载：57]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875124; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; menu-style=full; rows=20; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.014492s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000434s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:25:25+08:00 ] ::1 ::1 GET /admin/login.html
+[ info ] localhost:8888/admin/login.html [运行时间：0.067017s][吞吐率：14.92req/s] [内存消耗：3,330.44kb] [文件加载：55]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875124; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; menu-style=full; rows=20; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.013289s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000474s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:25:48+08:00 ] ::1 ::1 GET /admin/login.html
+[ info ] localhost:8888/admin/login.html [运行时间：0.097668s][吞吐率：10.24req/s] [内存消耗：3,538.82kb] [文件加载：57]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875126; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; menu-style=full; rows=20; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.025515s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000748s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:25:59+08:00 ] ::1 ::1 GET /admin/login.html
+[ info ] localhost:8888/admin/login.html [运行时间：0.091761s][吞吐率：10.90req/s] [内存消耗：3,539.12kb] [文件加载：57]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875148; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; menu-style=full; rows=20; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.019907s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000497s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:05+08:00 ] ::1 ::1 GET /admin/login.html
+[ info ] localhost:8888/admin/login.html [运行时间：0.076075s][吞吐率：13.14req/s] [内存消耗：3,539.12kb] [文件加载：57]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875160; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; menu-style=full; rows=20; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.023853s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000531s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:11+08:00 ] ::1 ::1 POST /admin/login.html?spm=
+[ info ] localhost:8888/admin/login.html?spm= [运行时间：0.547867s][吞吐率：1.83req/s] [内存消耗：3,594.69kb] [文件加载：61]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8888/admin/login.html',
+  'content-length' => '49',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875166; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; menu-style=full; rows=20; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'spm' => '',
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.163970s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:13+08:00 ] ::1 ::1 GET /admin.html
+[ info ] localhost:8888/admin.html [运行时间：0.102397s][吞吐率：9.77req/s] [内存消耗：4,354.48kb] [文件加载：85]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875166; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; menu-style=full; rows=20; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'referer' => 'http://localhost:8888/admin/login.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.013842s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/admin/view/index.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000573s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:13+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ info ] localhost:8888/admin/auth/index.html?spm=m-2-19 [运行时间：0.082511s][吞吐率：12.12req/s] [内存消耗：3,683.16kb] [文件加载：62]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875173; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; menu-style=full; rows=20; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-19',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.021478s ]
+[ info ] [ RUN ] app\admin\controller\Auth->index[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Auth.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/admin/view/auth.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.003058s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:17+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66 [运行时间：0.077793s][吞吐率：12.85req/s] [内存消耗：3,679.86kb] [文件加载：62]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875173; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; menu-style=full; rows=20; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.021697s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.002114s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:18+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ info ] localhost:8888/admin/auth/index.html?spm=m-2-19 [运行时间：0.099911s][吞吐率：10.01req/s] [内存消耗：3,683.16kb] [文件加载：62]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875173; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; rows=20; menu-style=full; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-19',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.018576s ]
+[ info ] [ RUN ] app\admin\controller\Auth->index[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Auth.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/admin/view/auth.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.003212s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:20+08:00 ] ::1 ::1 GET /admin/index/pass.html?id=10000&spm=m-2-19&open_type=modal
+[ info ] localhost:8888/admin/index/pass.html?id=10000&spm=m-2-19&open_type=modal [运行时间：0.080218s][吞吐率：12.47req/s] [内存消耗：3,370.42kb] [文件加载：56]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'pass',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875173; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; rows=20; menu-style=full; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'id' => '10000',
+  'spm' => 'm-2-19',
+  'open_type' => 'modal',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.014364s ]
+[ info ] [ RUN ] app\admin\controller\Index->pass[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/admin/view/user.pass.html [ array (
+  0 => 'classuri',
+  1 => 'verify',
+  2 => 'vo',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.002324s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:25+08:00 ] ::1 ::1 POST /admin/index/pass.html?id=10000&spm=m-2-19&open_type=modal
+[ info ] localhost:8888/admin/index/pass.html?id=10000&spm=m-2-19&open_type=modal [运行时间：0.086831s][吞吐率：11.52req/s] [内存消耗：3,487.09kb] [文件加载：59]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'pass',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8888/admin.html',
+  'content-length' => '64',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875173; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; rows=20; menu-style=full; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '10000',
+  'spm' => 'm-2-19',
+  'open_type' => 'modal',
+  'oldpassword' => 'admin',
+  'password' => '123123aA',
+  'repassword' => '123123aA',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.023985s ]
+[ info ] [ RUN ] app\admin\controller\Index->pass[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:28+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ info ] localhost:8888/admin/auth/index.html?spm=m-2-19 [运行时间：0.093863s][吞吐率：10.65req/s] [内存消耗：3,683.16kb] [文件加载：62]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875173; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; rows=20; menu-style=full; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-2-19',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.015829s ]
+[ info ] [ RUN ] app\admin\controller\Auth->index[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Auth.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/admin/view/auth.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.008402s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:32+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=2&spm=m-2-19
+[ info ] localhost:8888/admin/auth/apply.html?id=2&spm=m-2-19 [运行时间：0.100678s][吞吐率：9.93req/s] [内存消耗：3,488.12kb] [文件加载：58]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875173; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; rows=20; menu-style=full; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'spm' => 'm-2-19',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.023022s ]
+[ info ] [ RUN ] app\admin\controller\Auth->apply[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Auth.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/admin/view/auth.apply.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'vo',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.002699s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:32+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=2&action=getNode
+[ info ] localhost:8888/admin/auth/apply.html?id=2&action=getNode [运行时间：0.097257s][吞吐率：10.28req/s] [内存消耗：4,088.64kb] [文件加载：80]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875173; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; rows=20; menu-style=full; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'action' => 'getNode',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.027799s ]
+[ info ] [ RUN ] app\admin\controller\Auth->apply[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Auth.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:37+08:00 ] ::1 ::1 POST /admin/auth/apply.html?id=2&action=save&spm=m-2-19
+[ info ] localhost:8888/admin/auth/apply.html?id=2&action=save&spm=m-2-19 [运行时间：0.072781s][吞吐率：13.74req/s] [内存消耗：3,378.55kb] [文件加载：56]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8888/admin.html',
+  'content-length' => '78',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875173; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; rows=20; menu-style=full; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'action' => 'save',
+  'spm' => 'm-2-19',
+  'nodes' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat/tags',
+    2 => 'wechat/tags/index',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.015819s ]
+[ info ] [ RUN ] app\admin\controller\Auth->apply[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Auth.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:39+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=2&spm=m-2-19
+[ info ] localhost:8888/admin/auth/apply.html?id=2&spm=m-2-19 [运行时间：0.061883s][吞吐率：16.16req/s] [内存消耗：3,488.12kb] [文件加载：58]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875173; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; rows=20; menu-style=full; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'spm' => 'm-2-19',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.013847s ]
+[ info ] [ RUN ] app\admin\controller\Auth->apply[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Auth.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/admin/view/auth.apply.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'vo',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001951s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:39+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=2&action=getNode
+[ info ] localhost:8888/admin/auth/apply.html?id=2&action=getNode [运行时间：0.085216s][吞吐率：11.73req/s] [内存消耗：4,088.44kb] [文件加载：80]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875173; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844420; rows=20; menu-style=full; m-61-65=2; sa7f14577=f0ad09857c9f6910a461f802eb96dc74; SQLiteManager_currentLangue=2',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Safari/604.1.38',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'action' => 'getNode',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.015034s ]
+[ info ] [ RUN ] app\admin\controller\Auth->apply[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Auth.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:40+08:00 ] ::1 ::1 GET /admin.html
+[ info ] localhost:8888/admin.html [运行时间：0.181968s][吞吐率：5.50req/s] [内存消耗：4,344.14kb] [文件加载：85]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506874878; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.025328s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/admin/view/index.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000706s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:41+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center= [运行时间：0.186795s][吞吐率：5.35req/s] [内存消耗：3,791.94kb] [文件加载：65]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; rows=20; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875201; menu-style=full',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'appname' => '',
+  'colurl' => '',
+  'center' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.045989s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.003439s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:42+08:00 ] ::1 ::1 GET /admin.html
+[ info ] localhost:8888/admin.html [运行时间：0.082783s][吞吐率：12.08req/s] [内存消耗：4,344.07kb] [文件加载：85]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875201; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.012303s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/admin/view/index.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000411s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:42+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center= [运行时间：0.144960s][吞吐率：6.90req/s] [内存消耗：3,791.94kb] [文件加载：65]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; rows=20; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875203; menu-style=full',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'appname' => '',
+  'colurl' => '',
+  'center' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.025701s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.005748s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:48+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=2&center=
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66&appname=&colurl=2&center= [运行时间：0.122606s][吞吐率：8.16req/s] [内存消耗：3,792.42kb] [文件加载：65]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875203; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'appname' => '',
+  'colurl' => '2',
+  'center' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.028793s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.005057s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:53+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=202&center=
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66&appname=&colurl=202&center= [运行时间：0.100934s][吞吐率：9.91req/s] [内存消耗：3,707.11kb] [文件加载：64]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875203; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'appname' => '',
+  'colurl' => '202',
+  'center' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.033427s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001862s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:55+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=20&center=
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66&appname=&colurl=20&center= [运行时间：0.122151s][吞吐率：8.19req/s] [内存消耗：3,792.49kb] [文件加载：65]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875203; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'appname' => '',
+  'colurl' => '20',
+  'center' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.031490s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.008483s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:26:59+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=%E5%AE%89%E6%99%BA
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=%E5%AE%89%E6%99%BA [运行时间：0.099420s][吞吐率：10.06req/s] [内存消耗：3,707.03kb] [文件加载：64]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875203; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'appname' => '',
+  'colurl' => '',
+  'center' => '安智',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.025604s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.003142s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:27:00+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=VIVO
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=VIVO [运行时间：0.204783s][吞吐率：4.88req/s] [内存消耗：3,791.99kb] [文件加载：65]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875203; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'appname' => '',
+  'colurl' => '',
+  'center' => 'VIVO',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.055303s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.004944s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:27:04+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=%E6%97%B6%E6%97%B6&colurl=&center=VIVO
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66&appname=%E6%97%B6%E6%97%B6&colurl=&center=VIVO [运行时间：0.138728s][吞吐率：7.21req/s] [内存消耗：3,792.88kb] [文件加载：65]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875203; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'appname' => '时时',
+  'colurl' => '',
+  'center' => 'VIVO',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.020046s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.004821s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:27:07+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=VIVO
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=VIVO [运行时间：0.113920s][吞吐率：8.78req/s] [内存消耗：3,791.99kb] [文件加载：65]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875203; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'appname' => '',
+  'colurl' => '',
+  'center' => 'VIVO',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.044565s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.002665s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:27:08+08:00 ] ::1 ::1 GET /wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=VIVO
+[ info ] localhost:8888/wechat/tags/index.html?spm=m-61-66&appname=&colurl=&center=VIVO [运行时间：0.097534s][吞吐率：10.25req/s] [内存消耗：3,791.99kb] [文件加载：65]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'tags',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875203; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-61-66',
+  'appname' => '',
+  'colurl' => '',
+  'center' => 'VIVO',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.017846s ]
+[ info ] [ RUN ] app\wechat\controller\Tags->index[ /Users/yanglong/phpProject/JSControl/application/wechat/controller/Tags.php ]
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.009038s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-02T00:27:10+08:00 ] ::1 ::1 GET /admin/index/info.html?id=10001&spm=m-61-66&open_type=modal
+[ info ] localhost:8888/admin/index/info.html?id=10001&spm=m-61-66&open_type=modal [运行时间：0.081045s][吞吐率：12.34req/s] [内存消耗：3,370.30kb] [文件加载：56]
+[ info ] [ LANG ] /Users/yanglong/phpProject/JSControl/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://localhost:8888/admin.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=4152679424; pgv_si=s6900667392; sa7f14577=c18a43046fea7a546f3329ed5ab9cd41; m-95-96=2; m-61-65=2; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1506844656; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1506875203; menu-style=full; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '10001',
+  'spm' => 'm-61-66',
+  'open_type' => 'modal',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.018294s ]
+[ info ] [ RUN ] app\admin\controller\Index->info[ /Users/yanglong/phpProject/JSControl/application/admin/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /Users/yanglong/phpProject/JSControl/application/admin/view/user.form.html [ array (
+  0 => 'classuri',
+  1 => 'vo',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.005781s ]
+[ info ] [ LOG ] INIT File

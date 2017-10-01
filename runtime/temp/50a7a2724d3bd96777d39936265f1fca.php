@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/admin/view/login.index.html";i:1506619972;s:75:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.main.html";i:1506619972;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/admin/view/login.index.html";i:1506875165;s:75:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.main.html";i:1506619972;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
     <head>
@@ -34,7 +34,7 @@
     <!-- 顶部导航条 开始 -->
     <div class="header">
         <span class="title notselect">
-            欢迎登录 <?php echo sysconf('app_name'); ?> 后台管理 <sup><?php echo sysconf('app_version'); ?></sup>
+            <!-- 欢迎登录 <?php echo sysconf('app_name'); ?> 后台管理 <sup><?php echo sysconf('app_version'); ?></sup> -->
         </span>
         <ul>
             <!--<li class="notselect"><a href="javascript:void(0)" target="_blank">帮助</a></li>-->
@@ -59,13 +59,13 @@
             <ul>
                 <li>
                     <input name='username' class="hide"/>
-                    <input required="required" pattern="^\S{4,}$" value="admin" name="username"
+                    <input required="required" pattern="^\S{4,}$" value="" name="username"
                            autofocus="autofocus" autocomplete="off" class="login-input username"
                            title="请输入4位及以上的字符" placeholder="请输入用户名/手机号码"/>
                 </li>
                 <li>
                     <input name='password' class="hide"/>
-                    <input required="required" pattern="^\S{4,}$" value="admin" name="password"
+                    <input required="required" pattern="^\S{4,}$" value="" name="password"
                            type="password" autocomplete="off" class="login-input password"
                            title="请输入4位及以上的字符" placeholder="请输入密码"/>
                 </li>
@@ -80,7 +80,7 @@
 
     <!-- 底部版权信息 开始 -->
     <?php if(sysconf('site_copy')): ?>
-    <div class="footer notselect"><?php echo sysconf('site_copy'); ?></div>
+    <!-- <div class="footer notselect"><?php echo sysconf('site_copy'); ?></div> -->
     <?php endif; ?>
     <!-- 底部版本信息 结束 -->
 
