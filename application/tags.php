@@ -1,15 +1,17 @@
 <?php
+
 // +----------------------------------------------------------------------
-// | ThinkPHP [ WE CAN DO IT JUST THINK ]
+// | Think.Admin
 // +----------------------------------------------------------------------
-// | Copyright (c) 2006~2016 http://thinkphp.cn All rights reserved.
+// | 版权所有 2014~2017 广州楚才信息科技有限公司 [ http://www.cuci.cc ]
 // +----------------------------------------------------------------------
-// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
+// | 官方网站: http://think.ctolog.com
 // +----------------------------------------------------------------------
-// | Author: liu21st <liu21st@gmail.com>
+// | 开源协议 ( https://mit-license.org )
+// +----------------------------------------------------------------------
+// | github开源项目：https://github.com/zoujingli/Think.Admin
 // +----------------------------------------------------------------------
 
-// 应用行为扩展定义文件
 return [
     // 应用初始化
     'app_init'     => [],
@@ -18,9 +20,9 @@ return [
     // 模块初始化
     'module_init'  => [],
     // 操作开始执行
-    'action_begin' => [],
+    'action_begin' => ['hook\\AccessAuth'],
     // 视图内容过滤
-    'view_filter'  => [],
+    'view_filter'  => ['hook\\FilterView'],
     // 日志写入
     'log_write'    => [],
     // 应用结束

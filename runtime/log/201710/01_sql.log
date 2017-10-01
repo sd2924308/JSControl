@@ -1,0 +1,2263 @@
+---------------------------------------------------------------
+[ 2017-10-01T15:26:59+08:00 ] ::1 ::1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.416720s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.226011s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.228683s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:27:09+08:00 ] ::1 ::1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:4.507488s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.267448s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.223046s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:30:13+08:00 ] ::1 ::1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.386709s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.218390s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.247534s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:30:23+08:00 ] ::1 ::1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:2.567346s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.216596s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.220886s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:30:50+08:00 ] ::1 ::1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.355369s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.219530s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.183643s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:37:29+08:00 ] ::1 ::1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:2.556922s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.193253s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.198775s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:44:58+08:00 ] ::1 ::1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:4.522053s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.188855s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.195472s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:44:58+08:00 ] ::1 ::1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.794407s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.186976s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.204803s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:53:05+08:00 ] ::1 ::1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:1.773399s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.214224s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.193959s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:53:36+08:00 ] ::1 ::1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:2.720816s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.195452s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.196282s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:53:40+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.897499s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.209552s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.209302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.220823s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.206382s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.198520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.206046s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.212461s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:53:43+08:00 ] ::1 ::1 GET /admin/index/main.html?spm=m-94
+[ sql ] [ DB ] CONNECT:[ UseTime:1.583908s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.216978s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.207926s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.232687s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.209898s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.208151s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:54:27+08:00 ] ::1 ::1 GET /admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:5.588102s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.226372s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.212206s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.218189s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.210430s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:54:39+08:00 ] ::1 ::1 POST /admin/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:2.427968s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.222700s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.228206s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.215017s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.245440s ]
+[ sql ] [ SQL ] UPDATE `system_user`  SET `login_at`=now(),`login_num`=login_num+1  WHERE  `id` = 10000 [ RunTime:0.228582s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.202908s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.200776s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.203301s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.198738s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`ip` , `node` , `username` , `action` , `content`) VALUES ('0.0.0.0' , 'admin/login/index' , 'admin' , '系统管理' , '用户登录系统成功') [ RunTime:0.249678s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:54:44+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:2.011013s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.222571s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.209296s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.205212s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.215983s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.210906s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.191615s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.205957s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.195047s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.220764s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.213652s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.229340s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:54:48+08:00 ] ::1 ::1 GET /admin/index/main.html?spm=m-94
+[ sql ] [ DB ] CONNECT:[ UseTime:2.575214s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.205266s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.211695s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.209129s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.200069s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.203211s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:54:58+08:00 ] ::1 ::1 GET /admin/config/index.html?spm=m-2-5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.417480s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.224012s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/config/index' LIMIT 1 [ RunTime:0.234126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.212531s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.210324s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:55:03+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:2.648524s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.229929s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.647066s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.203524s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.582203s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,15 [ RunTime:0.209678s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.234416s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.221155s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:55:13+08:00 ] ::1 ::1 GET /admin/user/index.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:3.531653s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.271754s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/index' LIMIT 1 [ RunTime:0.365968s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.185172s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.184939s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 0,20 [ RunTime:0.206241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.201866s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.204022s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:55:22+08:00 ] ::1 ::1 GET /admin/user/add.html?spm=m-2-29&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:1.619137s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.222150s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/add' LIMIT 1 [ RunTime:0.210932s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.214605s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.220161s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` WHERE  `status` = 1 [ RunTime:0.237494s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.210512s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.219270s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:55:40+08:00 ] ::1 ::1 POST /admin/user/add.html?spm=m-2-29&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:2.627375s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.203952s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/add' LIMIT 1 [ RunTime:0.229746s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.202523s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `username` = 'iampp' LIMIT 1 [ RunTime:0.202369s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.206798s ]
+[ sql ] [ SQL ] INSERT INTO `system_user` (`username` , `phone` , `mail` , `desc`) VALUES ('iampp' , '13888888888' , '' , 'ddd') [ RunTime:0.212863s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:55:46+08:00 ] ::1 ::1 GET /admin/user/index.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:2.421046s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.199284s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/index' LIMIT 1 [ RunTime:0.207225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.201257s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.183554s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 0,20 [ RunTime:0.187677s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.197428s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.200012s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:56:11+08:00 ] ::1 ::1 POST /admin/user/del.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:2.799957s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.191613s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/del' LIMIT 1 [ RunTime:0.182149s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.210292s ]
+[ sql ] [ SQL ] UPDATE `system_user`  SET `is_deleted`=1  WHERE  `id` IN (10001) [ RunTime:0.222894s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:56:12+08:00 ] ::1 ::1 POST /admin/user/del.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:4.450884s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.208861s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/del' LIMIT 1 [ RunTime:0.218650s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.227958s ]
+[ sql ] [ SQL ] UPDATE `system_user`  SET `is_deleted`=1  WHERE  `id` IN (10001) [ RunTime:0.243944s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:56:12+08:00 ] ::1 ::1 POST /admin/user/del.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:1.927568s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.200363s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/del' LIMIT 1 [ RunTime:0.197370s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.215830s ]
+[ sql ] [ SQL ] UPDATE `system_user`  SET `is_deleted`=1  WHERE  `id` IN (10001) [ RunTime:0.259007s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:56:13+08:00 ] ::1 ::1 POST /admin/user/del.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:0.702463s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.212278s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/del' LIMIT 1 [ RunTime:0.226892s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.220222s ]
+[ sql ] [ SQL ] UPDATE `system_user`  SET `is_deleted`=1  WHERE  `id` IN (10001) [ RunTime:0.240643s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:56:13+08:00 ] ::1 ::1 POST /admin/user/del.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:0.560358s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.193143s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/del' LIMIT 1 [ RunTime:0.238212s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.225860s ]
+[ sql ] [ SQL ] UPDATE `system_user`  SET `is_deleted`=1  WHERE  `id` IN (10001) [ RunTime:0.219524s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:56:14+08:00 ] ::1 ::1 GET /admin/user/index.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:0.374177s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.184936s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/index' LIMIT 1 [ RunTime:0.197313s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.187866s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.182937s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 0,20 [ RunTime:0.186153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.192845s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.190135s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:56:19+08:00 ] ::1 ::1 GET /admin/user/index.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:2.402393s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.206974s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/index' LIMIT 1 [ RunTime:0.200703s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.164376s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.158123s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 0,20 [ RunTime:0.176202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.177691s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.207469s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:56:22+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.081933s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.232105s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.250649s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.208229s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.215142s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.222482s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.261905s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.213540s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.250030s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.231514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.691052s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.203148s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:56:26+08:00 ] ::1 ::1 GET /admin/user/index.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:2.419061s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.228430s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/index' LIMIT 1 [ RunTime:0.214909s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.206820s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.219254s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 0,20 [ RunTime:0.208028s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.222063s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.234054s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:56:37+08:00 ] ::1 ::1 GET /admin/user/edit.html?id=10000&spm=m-2-29&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.396689s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.211537s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/edit' LIMIT 1 [ RunTime:0.223912s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.200417s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.196222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.200531s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` WHERE  `status` = 1 [ RunTime:0.192550s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.203597s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.215106s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:56:50+08:00 ] ::1 ::1 POST /admin/user/edit.html?id=10000&spm=m-2-29&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:3.579470s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.183094s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/edit' LIMIT 1 [ RunTime:0.183688s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.192057s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.213695s ]
+[ sql ] [ SQL ] UPDATE `system_user`  SET `phone`='13888888855',`mail`='',`desc`='test',`id`=10000  WHERE  `id` = 10000 [ RunTime:0.207009s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:56:56+08:00 ] ::1 ::1 GET /admin/user/index.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:2.694583s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.190331s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/index' LIMIT 1 [ RunTime:0.237726s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.209526s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.198110s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 0,20 [ RunTime:0.208296s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.226942s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.206999s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:57:35+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.394455s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.227356s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.226256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.222037s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.211647s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.223841s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.220953s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.208957s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:57:39+08:00 ] ::1 ::1 GET /admin/user/index.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:2.697335s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.751853s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/index' LIMIT 1 [ RunTime:0.201418s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:57:45+08:00 ] ::1 ::1 GET /admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:4.664497s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.244249s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.237179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.216504s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.224645s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:57:49+08:00 ] ::1 ::1 GET /admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:2.719376s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.223861s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.201004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.218605s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.201710s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:58:18+08:00 ] ::1 ::1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.395262s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.205877s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.174593s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:58:20+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.348351s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.192189s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.199343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.209497s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.206664s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.211682s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.203885s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.208788s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:58:22+08:00 ] ::1 ::1 GET /admin/index/main.html?spm=m-94
+[ sql ] [ DB ] CONNECT:[ UseTime:0.370677s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.201887s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.207007s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.196778s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.177639s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.228565s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:58:24+08:00 ] ::1 ::1 GET /demo/plugs/region.html?spm=m-87-90
+[ sql ] [ DB ] CONNECT:[ UseTime:0.389368s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.215860s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'demo/plugs/region' LIMIT 1 [ RunTime:0.229588s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.229243s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.220945s ]
+---------------------------------------------------------------
+[ 2017-10-01T15:58:29+08:00 ] ::1 ::1 GET /admin/index/main.html?spm=m-94
+[ sql ] [ DB ] CONNECT:[ UseTime:2.483148s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.182765s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.200521s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.191308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.211246s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.205916s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:01:18+08:00 ] ::1 ::1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.327265s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.158806s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.164946s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:01:24+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:4.393864s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.161621s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.174495s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.154662s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.174516s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.154116s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.154104s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.157438s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:01:25+08:00 ] ::1 ::1 GET /admin/index/main.html?spm=m-94
+[ sql ] [ DB ] CONNECT:[ UseTime:0.304717s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.150717s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.156437s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.170163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.163676s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.150207s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:02:56+08:00 ] ::1 ::1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:2.749411s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.228136s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.242211s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:03:22+08:00 ] ::1 ::1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.400592s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.239144s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.247791s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:03:25+08:00 ] ::1 ::1 GET /admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:2.532669s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.217367s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.214263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.204183s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.201988s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:03:47+08:00 ] ::1 ::1 POST /admin/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.302783s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.148783s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.128207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.130211s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.139236s ]
+[ sql ] [ SQL ] UPDATE `system_user`  SET `login_at`=now(),`login_num`=login_num+1  WHERE  `id` = 10000 [ RunTime:0.162115s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.136486s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.135342s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.143429s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.151703s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`ip` , `node` , `username` , `action` , `content`) VALUES ('0.0.0.0' , 'admin/login/index' , 'admin' , '系统管理' , '用户登录系统成功') [ RunTime:0.144978s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:03:51+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.389961s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.231495s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.220233s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.251005s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.580826s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.199112s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.224997s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.238670s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.251672s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.223618s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.204583s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.203292s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:03:54+08:00 ] ::1 ::1 GET /admin/index/main.html?spm=m-94
+[ sql ] [ DB ] CONNECT:[ UseTime:2.351845s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.159769s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.152409s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.184015s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.152780s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.179491s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:04:38+08:00 ] ::1 ::1 GET /admin/index/main.html?spm=m-94
+[ sql ] [ DB ] CONNECT:[ UseTime:3.600763s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.147697s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.146336s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.253324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.145674s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.150865s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:05:05+08:00 ] ::1 ::1 GET /admin/index/pass.html?id=10000&spm=m-94&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:2.628714s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.160181s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/pass' LIMIT 1 [ RunTime:0.154040s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.158163s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.157558s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.152815s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.153617s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:06:42+08:00 ] ::1 ::1 GET /wechat/config/index.html?spm=m-61-63
+[ sql ] [ DB ] CONNECT:[ UseTime:2.440547s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.215182s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/config/index' LIMIT 1 [ RunTime:0.211514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.210027s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.594918s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:06:44+08:00 ] ::1 ::1 GET /admin/config/index.html?spm=m-2-5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.378442s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.203689s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/config/index' LIMIT 1 [ RunTime:0.225416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.223764s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.227306s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:06:46+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.415203s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.227228s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.212680s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.239017s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.230655s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.251188s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.230059s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:07:33+08:00 ] ::1 ::1 POST /admin/menu/forbid.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.308008s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.164320s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/forbid' LIMIT 1 [ RunTime:0.159432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.161451s ]
+[ sql ] [ SQL ] UPDATE `system_menu`  SET `status`=0  WHERE  `id` IN (94) [ RunTime:0.230147s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:07:37+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.269543s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.137085s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.174329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.131952s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.158076s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.134865s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.137103s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:12:27+08:00 ] ::1 ::1 POST /admin/menu/forbid.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.381963s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.213974s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/forbid' LIMIT 1 [ RunTime:0.220084s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.210608s ]
+[ sql ] [ SQL ] UPDATE `system_menu`  SET `status`=0  WHERE  `id` IN (61,62,63,68,70,71,81,69,65,66,67,86,82,85,83) [ RunTime:0.235980s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:12:33+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:2.504876s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.154774s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.171402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.155017s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.160233s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.155255s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.168842s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:12:36+08:00 ] ::1 ::1 POST /admin/menu/forbid.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:2.442940s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.228301s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/forbid' LIMIT 1 [ RunTime:0.215930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.225376s ]
+[ sql ] [ SQL ] UPDATE `system_menu`  SET `status`=0  WHERE  `id` IN (87,88,90,93,91,92) [ RunTime:0.237924s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:12:38+08:00 ] ::1 ::1 POST /admin/menu/forbid.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:2.964312s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.170042s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/forbid' LIMIT 1 [ RunTime:0.148225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.159325s ]
+[ sql ] [ SQL ] UPDATE `system_menu`  SET `status`=0  WHERE  `id` IN (87,88,90,93,91,92) [ RunTime:0.163650s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:12:40+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.572603s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.138544s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.127694s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.139361s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.146778s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.132969s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.130554s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.139871s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.137494s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.129701s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.143509s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.164141s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:12:43+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:3.081021s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.246234s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.211548s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.289010s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.250392s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.655150s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.271283s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:12:44+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:2.558545s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.206588s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.201802s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.203550s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.210356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.252739s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.227103s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:12:45+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:2.697278s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.247501s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.238898s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.273628s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.260213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.240594s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.241624s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:12:49+08:00 ] ::1 ::1 GET /admin/config/index.html?spm=m-2-5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.432042s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.239008s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/config/index' LIMIT 1 [ RunTime:0.237740s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.242038s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.242164s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:12:55+08:00 ] ::1 ::1 GET /admin/config/file.html?spm=m-2-6
+[ sql ] [ DB ] CONNECT:[ UseTime:2.371843s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.163884s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/config/file' LIMIT 1 [ RunTime:0.161956s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.171147s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.187446s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:13:00+08:00 ] ::1 ::1 GET /admin/config/index.html?spm=m-2-5
+[ sql ] [ DB ] CONNECT:[ UseTime:1.664470s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.155341s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/config/index' LIMIT 1 [ RunTime:0.158469s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.159344s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.157317s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:13:01+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:1.152125s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.218017s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.234349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.234229s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.232759s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.232578s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.239021s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:13:03+08:00 ] ::1 ::1 GET /admin/config/index.html?spm=m-2-5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.446059s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.209181s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/config/index' LIMIT 1 [ RunTime:0.220873s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.212991s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.674848s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:13:05+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.306977s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.152127s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.169763s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.161116s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.150648s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.152410s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.168560s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:13:15+08:00 ] ::1 ::1 POST /admin/menu/forbid.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.278446s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.141298s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/forbid' LIMIT 1 [ RunTime:0.154945s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.149890s ]
+[ sql ] [ SQL ] UPDATE `system_menu`  SET `status`=0  WHERE  `id` IN (4,5,6) [ RunTime:0.185027s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:13:21+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:2.326078s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.156303s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.138529s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.170151s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.140903s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.141964s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.138184s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:13:24+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.522869s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.149687s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.134181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.136393s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.145841s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.188694s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.142013s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.143392s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.159748s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.151507s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.137174s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.139181s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:13:27+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:1.432348s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.149581s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.136884s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.156135s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.140915s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.139403s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.135006s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:13:52+08:00 ] ::1 ::1 GET /admin/menu/edit.html?id=2&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:13.023302s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.213145s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.214114s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.209466s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.201752s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.213726s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.211147s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.212990s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.222487s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:14:36+08:00 ] ::1 ::1 GET /admin/menu/add.html?spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:4.759059s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.213177s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/add' LIMIT 1 [ RunTime:0.230756s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.221434s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.220137s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.206602s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.205068s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.195975s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:14:54+08:00 ] ::1 ::1 GET /index.php/admin/plugs/icon.html?field=icon
+[ sql ] [ DB ] CONNECT:[ UseTime:5.107201s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.162776s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/plugs/icon' LIMIT 1 [ RunTime:0.166695s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.153587s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.185685s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:16:11+08:00 ] ::1 ::1 POST /admin/menu/add.html?spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:2.330957s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.153229s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/add' LIMIT 1 [ RunTime:0.154438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.154969s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_menu` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.158256s ]
+[ sql ] [ SQL ] INSERT INTO `system_menu` (`pid` , `title` , `url` , `icon`) VALUES (0 , 'APP管理' , '#' , 'fa fa-android') [ RunTime:0.191560s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:16:16+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:2.538179s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.153946s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.158432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.160543s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.156378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.151957s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.150252s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:16:22+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.449115s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.593237s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.229827s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.228546s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.242387s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.216062s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.219553s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.237479s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.235391s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.222827s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.232835s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.211462s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:16:23+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.286308s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.170580s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.139337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.147509s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.147837s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.143415s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.137737s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:16:41+08:00 ] ::1 ::1 GET /admin/menu/edit.html?id=95&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.399887s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.226317s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.210806s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.228097s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `id` = 95 LIMIT 1 [ RunTime:0.201356s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.206816s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.224294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.199169s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.199146s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:16:51+08:00 ] ::1 ::1 GET /admin/menu/add.html?spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.493877s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.229054s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/add' LIMIT 1 [ RunTime:0.227177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.234796s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.227475s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.239374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.218981s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.212000s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:17:11+08:00 ] ::1 ::1 GET /index.php/admin/plugs/icon.html?field=icon
+[ sql ] [ DB ] CONNECT:[ UseTime:3.714747s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.158872s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/plugs/icon' LIMIT 1 [ RunTime:0.150269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.171017s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.153009s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:17:53+08:00 ] ::1 ::1 POST /admin/menu/add.html?spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.282092s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.137547s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/add' LIMIT 1 [ RunTime:0.131463s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.142892s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_menu` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.128858s ]
+[ sql ] [ SQL ] INSERT INTO `system_menu` (`pid` , `title` , `url` , `icon`) VALUES (95 , '应用管理' , '#' , 'fa fa-usb') [ RunTime:0.138874s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:17:58+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.392721s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.226704s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.602172s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.225286s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.248793s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.231047s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.262039s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:17:59+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.423299s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.235324s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.228533s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.233686s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.222973s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,15 [ RunTime:0.235268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.235195s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.235457s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:18:02+08:00 ] ::1 ::1 GET /admin/auth/add.html?spm=m-2-19&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.407326s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.237263s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/add' LIMIT 1 [ RunTime:0.226985s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.227380s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.247662s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.247748s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:18:15+08:00 ] ::1 ::1 POST /admin/auth/add.html?spm=m-2-19&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:2.418054s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.136769s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/add' LIMIT 1 [ RunTime:0.167308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.130790s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.131211s ]
+[ sql ] [ SQL ] INSERT INTO `system_auth` (`title` , `desc`) VALUES ('管理员' , '管理全部应用') [ RunTime:0.155871s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:18:20+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.387799s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.244612s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.222001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.219244s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.216639s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.253480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.216842s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.210805s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:18:20+08:00 ] ::1 ::1 GET /admin/auth/add.html?spm=m-2-19&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.406754s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.220503s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/add' LIMIT 1 [ RunTime:0.211932s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.251801s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.225111s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.201479s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:18:29+08:00 ] ::1 ::1 POST /admin/auth/add.html?spm=m-2-19&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:2.408076s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.153104s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/add' LIMIT 1 [ RunTime:0.138978s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.155336s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.138491s ]
+[ sql ] [ SQL ] INSERT INTO `system_auth` (`title` , `desc`) VALUES ('客户' , '客户') [ RunTime:0.166546s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:18:35+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:2.361363s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.160808s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.147274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.161857s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.151361s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.157194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.145844s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.144660s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:18:36+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=1&spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:3.080344s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.216722s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/apply' LIMIT 1 [ RunTime:0.658782s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.217875s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.216799s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.213758s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.197792s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:18:38+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=1&action=getNode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.392611s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.216384s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/apply' LIMIT 1 [ RunTime:0.202046s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.205165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth_node` [ RunTime:0.214291s ]
+[ sql ] [ SQL ] SELECT `node` FROM `system_auth_node` WHERE  `auth` = 1 [ RunTime:0.198202s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:19:17+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:2.389975s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.230462s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.201388s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.219672s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.211496s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.207062s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.215095s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.235925s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:19:20+08:00 ] ::1 ::1 GET /admin/node/index.html?spm=m-2-22
+[ sql ] [ DB ] CONNECT:[ UseTime:0.272998s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.132161s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/node/index' LIMIT 1 [ RunTime:0.136256s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.131823s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.135106s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.132961s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:19:44+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:4.455954s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.222418s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.259046s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.229604s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.241597s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.241872s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.225328s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:19:54+08:00 ] ::1 ::1 GET /admin/user/index.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:0.526188s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.134931s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/index' LIMIT 1 [ RunTime:0.134461s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.179306s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.133103s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 0,20 [ RunTime:0.144889s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.135088s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.174343s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:19:58+08:00 ] ::1 ::1 GET /admin/log/index.html?spm=m-2-9
+[ sql ] [ DB ] CONNECT:[ UseTime:0.279728s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.131415s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/log/index' LIMIT 1 [ RunTime:0.133598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.158550s ]
+[ sql ] [ SQL ] SELECT `action` FROM `system_log` GROUP BY `action` [ RunTime:0.137415s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_log` LIMIT 1 [ RunTime:0.130789s ]
+[ sql ] [ SQL ] SELECT * FROM `system_log` ORDER BY id desc LIMIT 0,20 [ RunTime:0.148149s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.136283s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.145451s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:20:04+08:00 ] ::1 ::1 GET /admin/user/index.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:0.316568s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.157580s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/index' LIMIT 1 [ RunTime:0.155514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.170645s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.155197s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 0,20 [ RunTime:0.155732s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.158545s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.153908s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:20:08+08:00 ] ::1 ::1 GET /admin/user/auth.html?id=10000&spm=m-2-29&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:1.009780s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.151149s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/auth' LIMIT 1 [ RunTime:0.150741s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.164847s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.151946s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.158966s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` WHERE  `status` = 1 [ RunTime:0.148354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.181915s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.149868s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:20:17+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:2.630001s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.196597s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.207039s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.204209s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.196989s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.230367s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.208194s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.193216s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:20:22+08:00 ] ::1 ::1 GET /admin/node/index.html?spm=m-2-22
+[ sql ] [ DB ] CONNECT:[ UseTime:2.626174s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.212205s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/node/index' LIMIT 1 [ RunTime:0.614920s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.215911s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.236301s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.215696s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:21:00+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.386894s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.548270s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.208434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.221574s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.212411s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.193570s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.216504s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:21:19+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:2.535562s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.153875s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.135381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.134505s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.133287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.141636s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.139627s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.145692s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.138768s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.157380s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.132875s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.133790s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:21:21+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.428143s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.235645s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.229655s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.228995s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.270620s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.229267s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.237841s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:21:23+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.272653s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.134625s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.140962s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.138598s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.143691s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.131996s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.131838s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:21:26+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.392806s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.212701s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.199353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.202452s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.221392s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.233081s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.241373s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:21:29+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.782732s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.362752s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.381997s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.132014s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.152706s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.135406s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.128377s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:21:34+08:00 ] ::1 ::1 GET /admin/login/out.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.301070s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.165784s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/out' LIMIT 1 [ RunTime:0.165520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.193627s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`ip` , `node` , `username` , `action` , `content`) VALUES ('0.0.0.0' , 'admin/login/out' , 'admin' , '系统管理' , '用户退出系统成功') [ RunTime:0.164477s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:21:42+08:00 ] ::1 ::1 GET /admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:4.791010s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.225196s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.213132s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.225509s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.244614s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:21:46+08:00 ] ::1 ::1 POST /admin/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.384704s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.227219s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.226360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.247175s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.218648s ]
+[ sql ] [ SQL ] UPDATE `system_user`  SET `login_at`=now(),`login_num`=login_num+1  WHERE  `id` = 10000 [ RunTime:0.227583s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.250190s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.221619s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.226027s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.241000s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`ip` , `node` , `username` , `action` , `content`) VALUES ('0.0.0.0' , 'admin/login/index' , 'admin' , '系统管理' , '用户登录系统成功') [ RunTime:0.245979s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:21:51+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.576460s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.230785s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.229425s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.236576s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.227874s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.225017s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.210665s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.232421s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.235760s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.218248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.230079s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.225434s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:21:53+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.451061s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.214837s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.207996s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.224225s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.602223s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.217169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.214052s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.230211s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:21:57+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.309021s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.160025s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.151785s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.151481s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.152320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.165664s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.171369s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:22:03+08:00 ] ::1 ::1 GET /admin/menu/edit.html?id=2&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.310204s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.166775s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.154031s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.161528s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.158495s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.155019s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.167706s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.156354s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.155507s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:22:10+08:00 ] ::1 ::1 POST /admin/menu/edit.html?id=2&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:3.040057s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.237178s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.233256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.243779s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_menu` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.229561s ]
+[ sql ] [ SQL ] UPDATE `system_menu`  SET `pid`=0,`title`='系统管理1',`url`='#',`icon`='',`id`=2  WHERE  `id` = 2 [ RunTime:0.241213s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:22:14+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:1.428759s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.139768s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.133666s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.132077s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.146688s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.142530s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.149929s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:22:18+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.310643s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.147854s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.164600s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.180210s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.172177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.149513s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.150730s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:22:26+08:00 ] ::1 ::1 GET /admin/menu/edit.html?id=2&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:3.653583s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.212426s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.197125s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.214099s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.203575s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.206718s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.205232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.207939s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.239666s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:22:44+08:00 ] ::1 ::1 POST /admin/menu/edit.html?id=2&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.342464s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.187795s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.185269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.191880s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_menu` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.191753s ]
+[ sql ] [ SQL ] UPDATE `system_menu`  SET `pid`=0,`title`='系统管理',`url`='#',`icon`='',`id`=2  WHERE  `id` = 2 [ RunTime:0.218587s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:22:47+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.316659s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.159135s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.152886s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.157131s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.170398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.161607s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.152167s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:22:50+08:00 ] ::1 ::1 GET /admin/node/index.html?spm=m-2-22
+[ sql ] [ DB ] CONNECT:[ UseTime:1.481311s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.154559s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/node/index' LIMIT 1 [ RunTime:0.148675s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.139941s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.133862s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.130911s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:23:04+08:00 ] ::1 ::1 POST /admin/node/save.html?spm=m-2-22
+[ sql ] [ DB ] CONNECT:[ UseTime:2.606009s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.152555s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/node/save' LIMIT 1 [ RunTime:0.145603s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_node` WHERE  `node` = 'admin' LIMIT 1 [ RunTime:0.152473s ]
+[ sql ] [ SQL ] UPDATE `system_node`  SET `node`='admin',`title`='后台管理'  WHERE  `node` = 'admin' [ RunTime:0.172161s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:23:04+08:00 ] ::1 ::1 POST /admin/node/save.html?spm=m-2-22
+[ sql ] [ DB ] CONNECT:[ UseTime:1.197099s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.183824s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/node/save' LIMIT 1 [ RunTime:0.193384s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_node` WHERE  `node` = 'admin' LIMIT 1 [ RunTime:0.205936s ]
+[ sql ] [ SQL ] UPDATE `system_node`  SET `node`='admin',`title`='后台管理'  WHERE  `node` = 'admin' [ RunTime:0.222980s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:23:11+08:00 ] ::1 ::1 POST /admin/node/save.html?spm=m-2-22
+[ sql ] [ DB ] CONNECT:[ UseTime:2.380744s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.186415s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/node/save' LIMIT 1 [ RunTime:0.180572s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_node` WHERE  `node` = 'admin/user/auth' LIMIT 1 [ RunTime:0.191685s ]
+[ sql ] [ SQL ] UPDATE `system_node`  SET `node`='admin/user/auth',`title`='用户授权'  WHERE  `node` = 'admin/user/auth' [ RunTime:0.220102s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:23:20+08:00 ] ::1 ::1 POST /admin/node/save.html?spm=m-2-22
+[ sql ] [ DB ] CONNECT:[ UseTime:0.347718s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.155477s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/node/save' LIMIT 1 [ RunTime:0.183589s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_node` WHERE  `node` = 'admin' LIMIT 1 [ RunTime:0.146411s ]
+[ sql ] [ SQL ] UPDATE `system_node`  SET `node`='admin',`title`='后台管理'  WHERE  `node` = 'admin' [ RunTime:0.168476s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:24:49+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:1.527255s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.208734s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.211003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.228726s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.201144s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.202323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.207985s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.208475s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:24:53+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.423956s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.228286s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.253565s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.236872s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.251718s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.218471s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.295140s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:25:09+08:00 ] ::1 ::1 GET /admin/menu/edit.html?id=20&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.380765s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.203898s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.207426s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.206586s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.215645s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.213504s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.225787s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.207557s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.221791s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:25:18+08:00 ] ::1 ::1 POST /admin/menu/edit.html?id=20&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:2.535859s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.233925s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.928612s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.907809s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_menu` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.235189s ]
+[ sql ] [ SQL ] UPDATE `system_menu`  SET `pid`=2,`title`='系统权限1',`url`='#',`icon`='',`id`=20  WHERE  `id` = 20 [ RunTime:0.231387s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:25:23+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:1.436155s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.139311s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.152515s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.129680s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.132415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.135171s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.217921s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:25:29+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.474301s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.154868s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.159318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.157880s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.154812s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.155226s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.155027s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.179837s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.408352s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.358590s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.956591s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.416654s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:25:34+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:3.572840s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.137175s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.138069s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.128888s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.135276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.133336s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.154742s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:25:38+08:00 ] ::1 ::1 GET /admin/menu/edit.html?id=20&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.400069s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.226334s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.211440s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.216765s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.229173s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.223992s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.225832s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.210828s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.218501s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:25:42+08:00 ] ::1 ::1 POST /admin/menu/edit.html?id=20&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.293005s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.194768s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.153320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.148881s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_menu` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.155476s ]
+[ sql ] [ SQL ] UPDATE `system_menu`  SET `pid`=2,`title`='系统权限',`url`='#',`icon`='',`id`=20  WHERE  `id` = 20 [ RunTime:0.168666s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:25:46+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.408017s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.223794s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.234393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.213024s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.214393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.215902s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.220417s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:25:51+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.410863s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.228253s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.225786s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.230307s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.236085s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.224196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.265952s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.230009s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:25:54+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=1&spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.302473s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.147362s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/apply' LIMIT 1 [ RunTime:0.146972s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.149546s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.149877s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.146631s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.150856s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:25:55+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=1&action=getNode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.364720s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.206536s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/apply' LIMIT 1 [ RunTime:0.203532s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.215744s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth_node` [ RunTime:0.220319s ]
+[ sql ] [ SQL ] SELECT `node` FROM `system_auth_node` WHERE  `auth` = 1 [ RunTime:0.203779s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:26:01+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.278767s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.139539s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.137218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.140288s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.141382s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.149656s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.144335s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.169533s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:26:06+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=1&spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:2.479704s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.219036s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/apply' LIMIT 1 [ RunTime:0.224706s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.203071s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.197866s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.206058s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.209683s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:26:07+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=1&action=getNode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.303050s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.150247s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/apply' LIMIT 1 [ RunTime:0.149379s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.159006s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth_node` [ RunTime:0.173733s ]
+[ sql ] [ SQL ] SELECT `node` FROM `system_auth_node` WHERE  `auth` = 1 [ RunTime:0.148592s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:27:43+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:2.287714s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.138159s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.130757s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.131608s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.159802s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.130144s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.134669s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.141287s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.132220s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.136114s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.143185s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.130150s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:27:45+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=1&spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.426916s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.233070s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/apply' LIMIT 1 [ RunTime:0.224348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.237611s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.272037s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.228085s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.267329s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:27:46+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=1&action=getNode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.303446s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.154613s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/apply' LIMIT 1 [ RunTime:0.162282s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.154384s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth_node` [ RunTime:0.179310s ]
+[ sql ] [ SQL ] SELECT `node` FROM `system_auth_node` WHERE  `auth` = 1 [ RunTime:0.150772s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:36:35+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.361438s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.226797s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.206712s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.197536s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.227379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.227715s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.187560s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.227813s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.197961s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.203990s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.234243s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.209379s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:36:38+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:1.874886s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.147158s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.163983s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.130930s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.134075s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.130937s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.129972s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.142916s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:36:42+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.961995s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.144329s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.193054s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.141195s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.125655s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.141367s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.176720s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.142513s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.135154s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.133020s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.130133s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.130321s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:36:45+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.922319s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.161261s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.165685s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.176355s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.151305s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.151653s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.154074s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.153417s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:36:53+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=1&spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.674072s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.237683s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/apply' LIMIT 1 [ RunTime:0.224560s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.235132s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.214020s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.219946s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.223710s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:36:55+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=1&action=getNode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.601299s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.215506s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/apply' LIMIT 1 [ RunTime:0.212774s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.224797s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth_node` [ RunTime:0.214284s ]
+[ sql ] [ SQL ] SELECT `node` FROM `system_auth_node` WHERE  `auth` = 1 [ RunTime:0.238599s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:37:09+08:00 ] ::1 ::1 GET /admin/node/index.html?spm=m-2-22
+[ sql ] [ DB ] CONNECT:[ UseTime:0.279230s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.138544s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/node/index' LIMIT 1 [ RunTime:0.138290s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.141902s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.157337s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.135216s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:37:14+08:00 ] ::1 ::1 GET /admin/user/index.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:0.686916s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.235785s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/index' LIMIT 1 [ RunTime:0.237110s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.427706s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.300526s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 0,20 [ RunTime:0.466962s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.319894s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.235964s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:37:18+08:00 ] ::1 ::1 GET /admin/user/auth.html?id=10000&spm=m-2-29&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:1.101289s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.515675s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/auth' LIMIT 1 [ RunTime:0.153904s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.165803s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.150187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.156860s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` WHERE  `status` = 1 [ RunTime:0.158812s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.156704s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.158984s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:37:24+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.928625s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.145980s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.143506s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.138003s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.140307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.180743s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.186653s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:37:29+08:00 ] ::1 ::1 GET /admin/menu/edit.html?id=95&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:1.009091s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.172427s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.147946s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.167846s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `id` = 95 LIMIT 1 [ RunTime:0.162671s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.149036s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.159068s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.148043s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.157252s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:37:49+08:00 ] ::1 ::1 GET /admin/menu/edit.html?id=96&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.495439s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.154332s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.155626s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.147018s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `id` = 96 LIMIT 1 [ RunTime:0.149562s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.148057s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.158129s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.152134s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.171038s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:37:55+08:00 ] ::1 ::1 POST /admin/menu/edit.html?id=96&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:2.009489s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.205690s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.203150s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.209563s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_menu` WHERE  `id` = 96 LIMIT 1 [ RunTime:0.204210s ]
+[ sql ] [ SQL ] UPDATE `system_menu`  SET `pid`=95,`title`='应用管理',`url`='	/admin/config/index.html',`icon`='fa fa-usb',`id`=96  WHERE  `id` = 96 [ RunTime:0.230224s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:37:59+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.917679s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.157121s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.145768s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.152066s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.151813s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.145842s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.148743s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:38:04+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.593338s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.226951s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.191208s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.195897s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.205755s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.223545s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.184045s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.173272s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.175378s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.179651s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.173687s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.179944s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:38:06+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.523305s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.192524s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.192892s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.187589s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.204538s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.192348s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.177469s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:38:13+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:1.682367s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.129529s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.128819s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.139545s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.129133s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.146105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.139753s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.151992s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:38:18+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.300802s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.157426s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.149117s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.158474s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.158669s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.180725s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.153900s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.147295s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:38:26+08:00 ] ::1 ::1 GET /admin/node/index.html?spm=m-2-22
+[ sql ] [ DB ] CONNECT:[ UseTime:0.921501s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.171915s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/node/index' LIMIT 1 [ RunTime:0.139822s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.146474s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.145652s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.137703s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:38:31+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:1.781612s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.152892s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.151181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.161395s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.156976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.160941s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.156223s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:38:39+08:00 ] ::1 ::1 GET /admin/menu/edit.html?id=95&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:1.687391s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:2.567883s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.196328s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.202900s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `id` = 95 LIMIT 1 [ RunTime:0.209845s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.599694s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.159142s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.173998s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.167000s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:38:46+08:00 ] ::1 ::1 POST /admin/menu/edit.html?id=95&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.887033s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.215358s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.249512s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.225497s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_menu` WHERE  `id` = 95 LIMIT 1 [ RunTime:0.212554s ]
+[ sql ] [ SQL ] UPDATE `system_menu`  SET `pid`=0,`title`='APP管理',`url`='#',`icon`='',`id`=95  WHERE  `id` = 95 [ RunTime:0.223326s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:38:50+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.429087s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.161856s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.156274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.155981s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.166802s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.157883s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.165406s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:39:02+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:2.781380s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.216675s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.229693s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.216664s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.218223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.229734s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.221713s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.233192s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.212400s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.228707s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.246764s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.223089s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:39:04+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.662978s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.196070s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.205831s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.194089s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.191816s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.217981s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.201609s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:39:46+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.782203s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.130726s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.134208s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.133900s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.134456s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.132565s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.142529s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.131723s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:39:51+08:00 ] ::1 ::1 GET /admin/node/index.html?spm=m-2-22
+[ sql ] [ DB ] CONNECT:[ UseTime:0.686929s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.198601s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/node/index' LIMIT 1 [ RunTime:0.186674s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.196666s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.213630s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.211160s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:39:53+08:00 ] ::1 ::1 GET /admin/user/index.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:0.655364s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.138652s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/index' LIMIT 1 [ RunTime:0.132552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.134122s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.134342s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 0,20 [ RunTime:0.131931s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.131158s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.134337s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:39:57+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.591033s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.213747s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.243354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.219257s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.229304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.227140s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.216172s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:40:03+08:00 ] ::1 ::1 GET /admin/log/index.html?spm=m-2-9
+[ sql ] [ DB ] CONNECT:[ UseTime:0.928639s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.190095s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/log/index' LIMIT 1 [ RunTime:0.200648s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.194869s ]
+[ sql ] [ SQL ] SELECT `action` FROM `system_log` GROUP BY `action` [ RunTime:0.194752s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_log` LIMIT 1 [ RunTime:0.207328s ]
+[ sql ] [ SQL ] SELECT * FROM `system_log` ORDER BY id desc LIMIT 0,20 [ RunTime:0.200631s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.192011s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.203426s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:40:20+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.892390s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.132324s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.135074s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.130460s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.148074s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.130016s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.163339s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.137142s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:40:23+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.663195s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.219881s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.225439s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.213418s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.209758s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.211343s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.209737s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:40:52+08:00 ] ::1 ::1 GET /admin/menu/edit.html?id=96&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.416603s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.238555s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.223725s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.223250s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `id` = 96 LIMIT 1 [ RunTime:0.234788s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.237620s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.247372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.229054s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.234242s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:41:09+08:00 ] ::1 ::1 POST /admin/menu/edit.html?id=96&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.309731s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:4.946939s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.316428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.529691s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_menu` WHERE  `id` = 96 LIMIT 1 [ RunTime:0.179119s ]
+[ sql ] [ SQL ] UPDATE `system_menu`  SET `pid`=95,`title`='应用管理',`url`='/admin/app/list',`icon`='fa fa-usb',`id`=96  WHERE  `id` = 96 [ RunTime:0.288254s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:41:14+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:1.478246s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.202807s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.222750s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.187747s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.189500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.203399s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.201724s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:41:24+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.487943s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.156838s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.154904s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.159256s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.153228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.191096s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.147974s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.151865s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.151717s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.151268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.152308s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.159733s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:41:29+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.662483s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.223579s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.235217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.191903s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.185523s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.185189s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.205276s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.194057s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:41:42+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.615731s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.238949s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.230101s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.221904s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.219948s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.231864s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.237640s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.216311s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:41:45+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.381250s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.211866s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.243419s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.206469s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.221356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.334200s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.521550s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:44:24+08:00 ] ::1 ::1 GET /admin/menu/edit.html?id=96&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.591536s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.216583s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.197638s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.208728s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `id` = 96 LIMIT 1 [ RunTime:0.201676s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.197153s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.212139s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.199893s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.197443s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:44:31+08:00 ] ::1 ::1 POST /admin/menu/edit.html?id=96&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:1.080441s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.231430s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.234246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.223075s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_menu` WHERE  `id` = 96 LIMIT 1 [ RunTime:0.246420s ]
+[ sql ] [ SQL ] UPDATE `system_menu`  SET `pid`=95,`title`='应用管理',`url`='/admin/auth/list',`icon`='fa fa-usb',`id`=96  WHERE  `id` = 96 [ RunTime:0.244860s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:44:35+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.408271s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.203730s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.187260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.218486s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.207954s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.187873s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.178039s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:44:38+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.307189s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.148975s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.147013s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.146504s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.147035s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.144222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.149829s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.163642s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:44:46+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.278473s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.135510s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.133682s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.137117s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.130898s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.130716s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.152128s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.136498s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:44:53+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.739731s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.146927s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.126975s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.131615s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.141702s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.138208s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.134610s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.133370s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.156127s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.137968s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.141330s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.131488s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:45:01+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:2.193171s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.160247s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.149903s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.155818s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.151405s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.154006s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.171478s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.157713s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:45:06+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.984080s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.147312s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.156575s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.149747s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.153801s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.147032s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.159724s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.156714s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:45:32+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.625518s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.136432s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.132491s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.139682s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.133722s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.152029s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.141311s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.145482s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:45:34+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.671636s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.157527s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.156779s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.156158s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.156608s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.154492s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.167558s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:46:01+08:00 ] ::1 ::1 GET /admin/menu/edit.html?id=96&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.492870s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.246844s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.293758s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.254026s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `id` = 96 LIMIT 1 [ RunTime:0.263049s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.281940s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.265095s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.251806s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.268721s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:46:09+08:00 ] ::1 ::1 POST /admin/menu/edit.html?id=96&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.638291s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.184259s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.229391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.202726s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_menu` WHERE  `id` = 96 LIMIT 1 [ RunTime:0.183085s ]
+[ sql ] [ SQL ] UPDATE `system_menu`  SET `pid`=95,`title`='应用管理',`url`='/admin/app/index',`icon`='fa fa-usb',`id`=96  WHERE  `id` = 96 [ RunTime:0.496707s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:46:12+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.394868s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.206781s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.202364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.214211s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.207492s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.206065s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.199411s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:46:18+08:00 ] ::1 ::1 GET /admin/menu/edit.html?id=96&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:1.864201s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.170465s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.174306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.157455s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `id` = 96 LIMIT 1 [ RunTime:0.160950s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.156793s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.175418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.166394s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.158435s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:46:27+08:00 ] ::1 ::1 POST /admin/menu/edit.html?id=96&spm=m-2-21&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:2.090127s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.210520s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.228080s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.208151s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_menu` WHERE  `id` = 96 LIMIT 1 [ RunTime:0.212716s ]
+[ sql ] [ SQL ] UPDATE `system_menu`  SET `pid`=95,`title`='应用管理',`url`='/admin/app/index',`icon`='fa fa-usb',`id`=96  WHERE  `id` = 96 [ RunTime:0.228054s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:46:32+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:1.648513s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.156271s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.148179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.150079s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.155238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.150400s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.202376s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:46:33+08:00 ] ::1 ::1 GET /admin/login/out.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.573066s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.220214s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/out' LIMIT 1 [ RunTime:0.199752s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.196221s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`ip` , `node` , `username` , `action` , `content`) VALUES ('0.0.0.0' , 'admin/login/out' , 'admin' , '系统管理' , '用户退出系统成功') [ RunTime:0.212210s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:46:35+08:00 ] ::1 ::1 GET /admin/login/out.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.710196s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.216659s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/out' LIMIT 1 [ RunTime:0.205057s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:46:36+08:00 ] ::1 ::1 GET /admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.779072s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.145618s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.147069s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.150715s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.146401s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:46:37+08:00 ] ::1 ::1 GET /admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.379713s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.230057s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.208762s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.210346s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.220548s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:46:42+08:00 ] ::1 ::1 POST /admin/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.533095s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.457069s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.176190s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.158024s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.149667s ]
+[ sql ] [ SQL ] UPDATE `system_user`  SET `login_at`=now(),`login_num`=login_num+1  WHERE  `id` = 10000 [ RunTime:0.193051s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.148996s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.156888s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.161372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.153869s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`ip` , `node` , `username` , `action` , `content`) VALUES ('0.0.0.0' , 'admin/login/index' , 'admin' , '系统管理' , '用户登录系统成功') [ RunTime:0.175188s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:46:45+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.537400s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.154576s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.164540s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.152124s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.151155s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.151838s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.154694s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.160648s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.182447s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.162043s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.201702s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.188428s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:46:54+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:1.120688s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.230770s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.219163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.224157s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.236157s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.224868s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.224634s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.206957s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:46:57+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.351167s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.161821s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.166713s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.165481s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.156515s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.154340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.152056s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.155823s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:47:01+08:00 ] ::1 ::1 GET /admin/node/index.html?spm=m-2-22
+[ sql ] [ DB ] CONNECT:[ UseTime:1.149028s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.129185s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/node/index' LIMIT 1 [ RunTime:0.130034s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.134687s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.135921s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.125234s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:47:09+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.541139s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.156608s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.160788s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.150408s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.151448s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.170930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.152198s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.156911s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:47:25+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:2.301966s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.136698s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.142321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.139587s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.158581s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.148553s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.173840s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.133728s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:47:30+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:1.362079s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.240265s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.225344s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.228566s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.220105s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.628250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.218122s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.210023s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:47:35+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.926311s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.238002s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.549931s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.187808s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.201504s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.188765s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.207581s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.189950s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:47:38+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:1.043417s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.134062s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.130760s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.142531s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.146787s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.135822s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.133205s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:47:42+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.780521s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.243924s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.232579s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.234528s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.223521s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.223398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.226145s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.240999s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:48:17+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:1.720295s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.129486s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.139638s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.130192s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.149799s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.132183s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.159148s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:48:19+08:00 ] ::1 ::1 GET /admin/node/index.html?spm=m-2-22
+[ sql ] [ DB ] CONNECT:[ UseTime:0.487264s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.231677s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/node/index' LIMIT 1 [ RunTime:0.216653s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.219479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.236741s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.250807s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:49:00+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.548702s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.153832s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.148728s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.148881s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.147069s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.148522s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.153552s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.164958s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:49:05+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:1.384465s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.207852s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.327921s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.201666s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.207513s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.209648s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.223211s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:54:04+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.733851s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.184744s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.182018s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.178871s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.179482s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.203477s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.208591s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.204115s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:54:08+08:00 ] ::1 ::1 GET /admin/node/index.html?spm=m-2-22
+[ sql ] [ DB ] CONNECT:[ UseTime:2.754987s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.415661s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/node/index' LIMIT 1 [ RunTime:0.352851s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.162673s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.152777s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.160284s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:55:06+08:00 ] ::1 ::1 GET /admin/user/index.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:1.847086s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.209174s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/user/index' LIMIT 1 [ RunTime:0.221360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.220563s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.208056s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 0,20 [ RunTime:0.191802s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.209852s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.206249s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:55:13+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.741998s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.228003s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.225803s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.243757s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.246497s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.223260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.265605s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.236776s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:55:17+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=1&spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.806799s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.162978s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/apply' LIMIT 1 [ RunTime:0.135380s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.141584s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.162236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.155467s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.135057s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:55:18+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=1&action=getNode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.598337s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.202791s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/apply' LIMIT 1 [ RunTime:0.208480s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.212267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth_node` [ RunTime:0.205912s ]
+[ sql ] [ SQL ] SELECT `node` FROM `system_auth_node` WHERE  `auth` = 1 [ RunTime:0.235380s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:55:41+08:00 ] ::1 ::1 POST /admin/auth/apply.html?id=1&action=save&spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:1.073055s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.133661s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/apply' LIMIT 1 [ RunTime:0.160653s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth_node` [ RunTime:0.183609s ]
+[ sql ] [ SQL ] DELETE FROM `system_auth_node`    WHERE  `auth` = 1 [ RunTime:0.135000s ]
+[ sql ] [ SQL ] INSERT INTO `system_auth_node` (`auth` , `node`) SELECT '1','admin' UNION ALL SELECT '1','admin/auth' UNION ALL SELECT '1','admin/auth/index' UNION ALL SELECT '1','admin/auth/apply' UNION ALL SELECT '1','admin/auth/add' UNION ALL SELECT '1','admin/auth/edit' UNION ALL SELECT '1','admin/auth/forbid' UNION ALL SELECT '1','admin/auth/resume' UNION ALL SELECT '1','admin/auth/del' UNION ALL SELECT '1','admin/config' UNION ALL SELECT '1','admin/config/index' UNION ALL SELECT '1','admin/config/file' UNION ALL SELECT '1','admin/config/sms' UNION ALL SELECT '1','admin/log' UNION ALL SELECT '1','admin/log/index' UNION ALL SELECT '1','admin/log/del' UNION ALL SELECT '1','admin/menu' UNION ALL SELECT '1','admin/menu/index' UNION ALL SELECT '1','admin/menu/add' UNION ALL SELECT '1','admin/menu/edit' UNION ALL SELECT '1','admin/menu/del' UNION ALL SELECT '1','admin/menu/forbid' UNION ALL SELECT '1','admin/menu/resume' UNION ALL SELECT '1','admin/node' UNION ALL SELECT '1','admin/node/index' UNION ALL SELECT '1','admin/node/save' UNION ALL SELECT '1','admin/user' UNION ALL SELECT '1','admin/user/index' UNION ALL SELECT '1','admin/user/auth' UNION ALL SELECT '1','admin/user/add' UNION ALL SELECT '1','admin/user/edit' UNION ALL SELECT '1','admin/user/pass' UNION ALL SELECT '1','admin/user/del' UNION ALL SELECT '1','admin/user/forbid' UNION ALL SELECT '1','admin/user/resume' [ RunTime:0.182036s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:55:45+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=1&spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.636631s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.136043s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/apply' LIMIT 1 [ RunTime:0.135870s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.135918s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.157234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.132990s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.135996s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:55:48+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=1&action=getNode
+[ sql ] [ DB ] CONNECT:[ UseTime:1.100517s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.324282s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/apply' LIMIT 1 [ RunTime:0.529126s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.456986s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth_node` [ RunTime:0.804574s ]
+[ sql ] [ SQL ] SELECT `node` FROM `system_auth_node` WHERE  `auth` = 1 [ RunTime:0.135466s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:55:53+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.949239s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.199708s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.206058s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.212265s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.221827s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.209294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.186991s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.204482s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:56:02+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.237478s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.211790s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.194221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.196422s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.213014s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.235088s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.224037s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.222651s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.217466s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.223118s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.230825s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.211744s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:56:04+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.787759s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.227053s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.201393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.245356s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.248420s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.210735s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.216588s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.228336s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:56:11+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:1.113941s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.136552s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.138975s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.132637s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.148612s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.132909s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.138549s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.130698s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:56:15+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=1&spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:2.332751s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.150289s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/apply' LIMIT 1 [ RunTime:0.168496s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.147864s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.159677s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.141955s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.149179s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:56:17+08:00 ] ::1 ::1 GET /admin/auth/apply.html?id=1&action=getNode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.777858s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.161251s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/apply' LIMIT 1 [ RunTime:0.156902s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.161166s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth_node` [ RunTime:0.155467s ]
+[ sql ] [ SQL ] SELECT `node` FROM `system_auth_node` WHERE  `auth` = 1 [ RunTime:0.165615s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:56:52+08:00 ] ::1 ::1 GET /admin/node/index.html?spm=m-2-22
+[ sql ] [ DB ] CONNECT:[ UseTime:10.714819s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:1.016746s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/node/index' LIMIT 1 [ RunTime:0.647294s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:1.747442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.647276s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.377919s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:57:27+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:5.840160s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.333224s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:3.108317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:3.895094s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.326632s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.420788s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.580985s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:58:28+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:2.494106s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.680020s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.370957s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.568028s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.613097s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.425345s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.204086s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.438163s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.240045s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.198909s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.201339s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.213602s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:58:36+08:00 ] ::1 ::1 GET /admin/menu/index.html?spm=m-2-21
+[ sql ] [ DB ] CONNECT:[ UseTime:5.669453s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.207262s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.204345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.198780s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY sort asc,id asc [ RunTime:0.206123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.230496s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.212338s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:58:52+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:14.043788s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.227209s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.205912s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.223948s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.223982s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.230836s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.230557s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.249558s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:59:45+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:18.362736s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.206531s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.404593s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.583709s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.351254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.966513s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:0.589708s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:5.309014s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:1.943365s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.519379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.274314s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:1.796174s ]
+---------------------------------------------------------------
+[ 2017-10-01T16:59:55+08:00 ] ::1 ::1 GET /admin/auth/index.html?spm=m-2-19
+[ sql ] [ DB ] CONNECT:[ UseTime:6.383515s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.758035s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/auth/index' LIMIT 1 [ RunTime:0.870650s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:8.149206s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_auth` LIMIT 1 [ RunTime:0.362444s ]
+[ sql ] [ SQL ] SELECT * FROM `system_auth` ORDER BY sort asc LIMIT 0,20 [ RunTime:0.385406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.726586s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.380626s ]
+---------------------------------------------------------------
+[ 2017-10-01T17:01:28+08:00 ] ::1 ::1 GET /admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:11.844906s ] mysql:host=203.160.55.247;port=3306;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:3.534630s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.857353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.451748s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:4.352670s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:3.099219s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (301,302,303,304)  AND `status` = 1 [ RunTime:1.165162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.306349s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.555290s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:3.441654s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.741568s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.526230s ]
