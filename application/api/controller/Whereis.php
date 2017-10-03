@@ -19,7 +19,6 @@ class Whereis{
         $json=array ('kk'=>0,'kks'=>'');
         if(count($result)>0){
             $json=array ('kk'=>$result[0]['status'],'kks'=>$result[0]['tourl']);
-            $result[0]['count']+=1;
             \think\Db::table('app_table')
             ->where('colurl','eq',$id)
             ->update([
