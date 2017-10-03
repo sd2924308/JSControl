@@ -22,7 +22,7 @@ class Whereis{
             \think\Db::table('app_table')
             ->where('colurl','eq',$id)
             ->update([
-                'count' => ['exp','count+1'],
+                'count' => ['exp','count+1']
             ]);
         }
          return json_encode($json);        
