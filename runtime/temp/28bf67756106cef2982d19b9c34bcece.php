@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html";i:1506874876;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html";i:1507277946;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
 <div class="ibox">
     
     <?php if(isset($title)): ?>
@@ -41,7 +41,7 @@
         </div>
     <div class="layui-form-item layui-inline">
         <div class="layui-input-inline">
-            <select name='center' class='layui-select full-width' style='display:block'>
+            <select name='center' class='layui-select full-width'>
                 <option  value=''>选择平台</option>
                 <option <?php echo \think\Request::instance()->get('center')=="百度"?"selected":""; ?> value='百度'>百度</option>
                 <option <?php echo \think\Request::instance()->get('center')=="VIVO"?"selected":""; ?> value='VIVO'>VIVO</option>
@@ -74,6 +74,7 @@
                 <th class='text-center'>应用名称</th>
                 <th class='text-center' width="80px">平台</th>
                 <th class='text-center'>控制ID</th>
+                <th class='text-center' width="80px" >底部导航</th>
                 <th class='text-center'>应用包名</th>
                 <th class='text-center'>目标url</th>
             
@@ -96,6 +97,13 @@
                     <span style="font-size: 11px;color: green">【已启用】</span> 
                     <?php endif; ?>
                 </td>
+                <td  class='text-center'>
+                    <?php if($vo['ismenu'] == 0): ?>
+                        无
+                    <?php else: ?>
+                        有
+                    <?php endif; ?>
+                </td>
                 <td class='text-center'><?php echo (isset($vo['appid']) && ($vo['appid'] !== '')?$vo['appid']:''); ?></td>
                 <td class='text-center'><?php echo (isset($vo['tourl']) && ($vo['tourl'] !== '')?$vo['tourl']:''); ?></td>
                 <td class='text-center nowrap'>
@@ -109,7 +117,7 @@
                     <?php endif; if(auth("$classuri/edit")): ?>
                     <span class="text-explode">|</span>
                     <a data-modal='<?php echo url("$classuri/edit"); ?>?id=<?php echo $vo['id']; ?>' data-title="编辑标签" href="javascript:void(0)">编辑</a>                    
-                 
+                    <?php endif; if(auth("$classuri/del")): ?>
                     <span class="text-explode">|</span>
                     <a data-update="<?php echo $vo['id']; ?>" data-field='delete' data-action='<?php echo url("$classuri/del"); ?>' href="javascript:void(0)">删除</a>                    
                     <?php endif; ?>
@@ -129,4 +137,10 @@
 
     </div>
     
+<script>
+    (function () {
+        window.form.render(); 
+    })();
+</script>
+
 </div>

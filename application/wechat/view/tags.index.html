@@ -23,7 +23,7 @@
         </div>
     <div class="layui-form-item layui-inline">
         <div class="layui-input-inline">
-            <select name='center' class='layui-select full-width' style='display:block'>
+            <select name='center' class='layui-select full-width'>
                 <option  value=''>选择平台</option>
                 <option {$Think.get.center=="百度"?"selected":""} value='百度'>百度</option>
                 <option {$Think.get.center=="VIVO"?"selected":""} value='VIVO'>VIVO</option>
@@ -56,6 +56,7 @@
                 <th class='text-center'>应用名称</th>
                 <th class='text-center' width="80px">平台</th>
                 <th class='text-center'>控制ID</th>
+                <th class='text-center' width="80px" >底部导航</th>
                 <th class='text-center'>应用包名</th>
                 <th class='text-center'>目标url</th>
             
@@ -76,6 +77,13 @@
                     <span style="font-size: 11px;color: red">【未启用】</span>
                     {else}
                     <span style="font-size: 11px;color: green">【已启用】</span> 
+                    {/if}
+                </td>
+                <td  class='text-center'>
+                    {if $vo.ismenu eq 0}
+                        无
+                    {else}
+                        有
                     {/if}
                 </td>
                 <td class='text-center'>{$vo.appid|default=''}</td>
@@ -110,4 +118,11 @@
     {if isset($page)}
     <p>{$page}</p>{/if}
 </form>
+{/block}
+{block name="script"}
+<script>
+    (function () {
+        window.form.render(); 
+    })();
+</script>
 {/block}

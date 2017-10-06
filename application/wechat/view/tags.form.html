@@ -8,11 +8,24 @@
         </div>
     </div>
     <div class="layui-form-item">
-            <label class="layui-form-label">控制ID</label>
-            <div class="layui-input-block">
-                <input type="text" name="colurl" value='{$vo.colurl|default=""}' placeholder="控制地址" class="layui-input">
-            </div>
+        <label class="layui-form-label">控制ID</label>
+        <div class="layui-input-block">
+            <input type="text" name="colurl" value='{$vo.colurl|default=""}' placeholder="控制地址" class="layui-input">
         </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">底部导航</label>
+        <div class="layui-input-block">
+            <label class="think-radio">
+                <input {$vo.ismenu=="1"?"checked":""}  type="radio" name="ismenu" value="1" lay-ignore> 有 
+            </label>
+            <label class="think-radio">
+                <input {$vo.ismenu=="0"?"checked":""}  type="radio" name="ismenu" value="0" lay-ignore> 无
+            </label>
+        </div>
+    </div>
+
+    
     <div class="layui-form-item">
         <label class="layui-form-label">应用包名</label>
         <div class="layui-input-block">
@@ -29,7 +42,7 @@
     <div class="layui-form-item">
         <label class="layui-form-label">上架平台</label>
         <div class="layui-input-block">
-            <select name='center' class='layui-select full-width' style='display:block'>
+            <select name='center' class='layui-select full-width' >
                
                 <option  value=''>请选择上架平台{$vo.center|default=""}</option>
                 <option {$vo.center|default=""=="百度"?"selected":""} value='百度'>百度</option>
@@ -44,7 +57,7 @@
     <div class="layui-form-item">
         <label class="layui-form-label">所属用户</label>
         <div class="layui-input-block">
-            <select name='username' class='layui-select full-width' style='display:block'>
+            <select name='username' class='layui-select full-width'>
                 {foreach $users as $user}
                     {if(isset($vo.username) and $user['username']==$vo['username'])}
                     <option selected value='{$user.username}'>  {$user.username}</option>
@@ -75,3 +88,9 @@
     </div>
 
 </form>
+
+<script>
+    (function () {
+        window.form.render(); 
+    })();
+</script>

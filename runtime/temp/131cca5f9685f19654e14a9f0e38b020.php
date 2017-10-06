@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/admin/view/config.file.html";i:1506619972;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/admin/view/config.file.html";i:1507276653;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
 <div class="ibox">
     
     <?php if(isset($title)): ?>
@@ -31,6 +31,18 @@
                 <!--<?php endif; ?>-->
                 本地服务器
             </label>
+            <div class="layui-form-item">
+                <label class="layui-form-label">显示菜单</label>
+                <div class="layui-input-block">
+                    <label class="think-radio">
+                        <input type="radio" name="ismenu" value="1" lay-ignore> 显示
+                    </label>
+                    <label class="think-radio">
+                        <input type="radio" name="ismenu" value="0" lay-ignore> 不显示
+                    </label>
+                </div>
+            </div>
+        
             <label class="think-radio">
                 <!--<?php if(sysconf('storage_type') == 'qiniu'): ?>-->
                 <input checked type="radio" name="storage_type" value="qiniu" title="七牛云存储" lay-ignore>
