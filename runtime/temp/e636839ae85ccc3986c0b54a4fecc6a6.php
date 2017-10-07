@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.form.html";i:1507277936;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.form.html";i:1507347728;}*/ ?>
 <form class="layui-form layui-box" style='padding:25px 30px 20px 0' action="__SELF__" data-auto="true" method="post">
 
     <div class="layui-form-item">
@@ -26,7 +26,7 @@
         </div>
     </div>
 
-    
+
     <div class="layui-form-item">
         <label class="layui-form-label">应用包名</label>
         <div class="layui-input-block">
@@ -43,7 +43,7 @@
     <div class="layui-form-item">
         <label class="layui-form-label">上架平台</label>
         <div class="layui-input-block">
-            <select name='center' class='layui-select full-width' >
+            <select name='center' class='layui-select full-width'>
                
                 <option  value=''>请选择上架平台<?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:""); ?></option>
                 <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="百度"?"selected":""; ?> value='百度'>百度</option>
@@ -57,14 +57,18 @@
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">所属用户</label>
+
         <div class="layui-input-block">
+            <?php if((session('user.username'))=="admin"): ?>
             <select name='username' class='layui-select full-width'>
                 <?php foreach($users as $user): if((isset($vo['username']) and $user['username']==$vo['username'])): ?>
                     <option selected value='<?php echo $user['username']; ?>'>  <?php echo $user['username']; ?></option>
                     <?php else: ?>
                     <option value='<?php echo $user['username']; ?>'>  <?php echo $user['username']; ?></option>
                     <?php endif; endforeach; ?>
-            </select>
+            </select> <?php else: ?>
+            <label class="layui-form-label"> <?php echo session('user.username'); ?> </label>
+             <?php endif; ?>
         </div>
     </div>
     <div class="layui-form-item">
@@ -90,6 +94,6 @@
 
 <script>
     (function () {
-        window.form.render(); 
+        window.form.render();
     })();
 </script>
