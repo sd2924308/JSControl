@@ -67,6 +67,7 @@
                     <option value='{$user.username}'>  {$user.username}</option>
                     {/if}
                 {/foreach}
+                
             </select> 
             {else}
             <input type="text" name="username" value="{:session('user.username')}" readonly class="layui-input">
