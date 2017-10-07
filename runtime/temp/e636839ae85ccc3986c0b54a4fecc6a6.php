@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.form.html";i:1507394865;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.form.html";i:1507395493;}*/ ?>
 <form class="layui-form layui-box" style='padding:25px 30px 20px 0' action="__SELF__" data-auto="true" method="post">
 
     <div class="layui-form-item">
@@ -66,9 +66,10 @@
                     <?php else: ?>
                     <option value='<?php echo $user['username']; ?>'>  <?php echo $user['username']; ?></option>
                     <?php endif; endforeach; ?>
+                
             </select> 
             <?php else: ?>
-            <input type="text" name="username" value='<?php echo session('user.username'); ?> readonly class="layui-input">
+            <input type="text" name="username" value="<?php echo session('user.username'); ?>" readonly class="layui-input">
              <?php endif; ?>
         </div>
     </div>

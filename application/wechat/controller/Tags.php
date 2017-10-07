@@ -62,7 +62,10 @@ class Tags extends BasicAdmin
     public function _form_filter(&$data)
     {
         if ($this->request->isPost()) {
-            if (Db::name($this->table)->where(['colurl' => $data['colurl'],'id'=>['<>',$data['id']]])->find()) {
+            $dataid=!empty($data['id']) ? $data['id'] : '';
+           
+
+            if (Db::name($this->table)->where(['colurl' => $data['colurl'],'id'=>['<>',$dataid]])->find()) {
                 $this->error('这个控制ID已经使用过了,请更换!');
             }
         }else{
