@@ -17,10 +17,10 @@
         <label class="layui-form-label">底部导航</label>
         <div class="layui-input-block">
             <label class="think-radio">
-                <input {$vo.ismenu=="1"?"checked":""}  type="radio" name="ismenu" value="1" lay-ignore> 有 
+                <input {$vo.ismenu|default="0"=="1"?"checked":""}  type="radio" name="ismenu" value="1" lay-ignore> 有 
             </label>
             <label class="think-radio">
-                <input {$vo.ismenu=="0"?"checked":""}  type="radio" name="ismenu" value="0" lay-ignore> 无
+                <input {$vo.ismenu|default="0"=="0"?"checked":""}  type="radio" name="ismenu" value="0" lay-ignore> 无
             </label>
         </div>
     </div>
@@ -58,7 +58,7 @@
         <label class="layui-form-label">所属用户</label>
 
         <div class="layui-input-block">
-           
+            {if(session('user.username'))=="admin"}
             <select name='username' class='layui-select full-width'>
                 {foreach $users as $user}
                     {if(isset($vo.username) and $user['username']==$vo['username'])}
@@ -68,7 +68,9 @@
                     {/if}
                 {/foreach}
             </select> 
-            
+            {else}
+            <input type="text" name="username" value='{:session('user.username')} readonly class="layui-input">
+             {/if}
         </div>
     </div>
     <div class="layui-form-item">

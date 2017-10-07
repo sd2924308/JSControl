@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.form.html";i:1507347728;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.form.html";i:1507394865;}*/ ?>
 <form class="layui-form layui-box" style='padding:25px 30px 20px 0' action="__SELF__" data-auto="true" method="post">
 
     <div class="layui-form-item">
@@ -18,10 +18,10 @@
         <label class="layui-form-label">底部导航</label>
         <div class="layui-input-block">
             <label class="think-radio">
-                <input <?php echo $vo['ismenu']=="1"?"checked":""; ?>  type="radio" name="ismenu" value="1" lay-ignore> 有 
+                <input <?php echo (isset($vo['ismenu']) && ($vo['ismenu'] !== '')?$vo['ismenu']:"0")=="1"?"checked":""; ?>  type="radio" name="ismenu" value="1" lay-ignore> 有 
             </label>
             <label class="think-radio">
-                <input <?php echo $vo['ismenu']=="0"?"checked":""; ?>  type="radio" name="ismenu" value="0" lay-ignore> 无
+                <input <?php echo (isset($vo['ismenu']) && ($vo['ismenu'] !== '')?$vo['ismenu']:"0")=="0"?"checked":""; ?>  type="radio" name="ismenu" value="0" lay-ignore> 无
             </label>
         </div>
     </div>
@@ -66,8 +66,9 @@
                     <?php else: ?>
                     <option value='<?php echo $user['username']; ?>'>  <?php echo $user['username']; ?></option>
                     <?php endif; endforeach; ?>
-            </select> <?php else: ?>
-            <label class="layui-form-label"> <?php echo session('user.username'); ?> </label>
+            </select> 
+            <?php else: ?>
+            <input type="text" name="username" value='<?php echo session('user.username'); ?> readonly class="layui-input">
              <?php endif; ?>
         </div>
     </div>
