@@ -58,7 +58,7 @@
         <label class="layui-form-label">所属用户</label>
 
         <div class="layui-input-block">
-            {if(session('user.username'))=="admin"}
+           
             <select name='username' class='layui-select full-width'>
                 {foreach $users as $user}
                     {if(isset($vo.username) and $user['username']==$vo['username'])}
@@ -67,9 +67,8 @@
                     <option value='{$user.username}'>  {$user.username}</option>
                     {/if}
                 {/foreach}
-            </select> {else}
-            <label class="layui-form-label"> {:session('user.username')} </label>
-             {/if}
+            </select> 
+            
         </div>
     </div>
     <div class="layui-form-item">
