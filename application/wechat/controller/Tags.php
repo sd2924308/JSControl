@@ -45,7 +45,7 @@ class Tags extends BasicAdmin
     {
         $this->title = '应用管理';
         $get = $this->request->get();
-        $db = Db::name($this->table)->order('id asc');
+        $db = Db::name($this->table)->order('id desc');
         foreach (['appname','colurl','center'] as $key) {
             if (isset($get[$key]) && $get[$key] !== '') {
                 $db->where($key, 'like', "%{$get[$key]}%");
