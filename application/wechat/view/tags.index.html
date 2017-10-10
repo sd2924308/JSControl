@@ -57,7 +57,7 @@
                 <th class='text-center' width="80px">平台</th>
                 <th class='text-center'>控制ID</th>
                 <th class='text-center' width="80px" >底部导航</th>
-                <th class='text-center'>应用包名</th>
+                <th class='text-center'>所属用户</th>
                 <th class='text-center'>目标url</th>
             
                 <th class='text-center' width="100px">操作</th>
@@ -70,7 +70,12 @@
                     <input class="list-check-box" value='{$vo.id}' type='checkbox'/>
                 </td> -->
                 <td class='text-center'>{$vo.id|default='0'}</td>
-                <td class='text-center'>{$vo.appname|default=''}</td>
+                <td class='text-center'>
+                    {$vo.appname|default=''}
+                    {if $vo.appurl neq '' }
+                    <a href='{$vo.appurl}' target="_blank">【下载】</a> 
+                    {/if}
+                </td>
                 <td class='text-center'>{$vo.center|default=''}</td>
                 <td class='text-center'><a target= _blank href="/api/whereis?id={$vo.colurl|default=''}">{$vo.colurl|default=''}</a>
                     {if $vo.status eq 0}
@@ -86,7 +91,7 @@
                         有
                     {/if}
                 </td>
-                <td class='text-center'>{$vo.appid|default=''}</td>
+                <td class='text-center'>{$vo.username|default=''}</td>
                 <td class='text-center'>{$vo.tourl|default=''}</td>
                 <td class='text-center nowrap'>
 

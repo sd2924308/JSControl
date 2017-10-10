@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html";i:1507277946;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html";i:1507617773;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
 <div class="ibox">
     
     <?php if(isset($title)): ?>
@@ -46,7 +46,7 @@
                 <option <?php echo \think\Request::instance()->get('center')=="百度"?"selected":""; ?> value='百度'>百度</option>
                 <option <?php echo \think\Request::instance()->get('center')=="VIVO"?"selected":""; ?> value='VIVO'>VIVO</option>
                 <option <?php echo \think\Request::instance()->get('center')=="安智"?"selected":""; ?> value='安智'>安智</option>
-                <option <?php echo \think\Request::instance()->get('center')=="三星"?"selected":""; ?> value='安智'>三星</option>
+                <option <?php echo \think\Request::instance()->get('center')=="三星"?"selected":""; ?> value='三星'>三星</option>
                 <option <?php echo \think\Request::instance()->get('center')=="360"?"selected":""; ?> value='360'>360</option>
                 <option <?php echo \think\Request::instance()->get('center')=="应用宝"?"selected":""; ?> value='应用宝'>应用宝</option>
             </select>
@@ -75,7 +75,7 @@
                 <th class='text-center' width="80px">平台</th>
                 <th class='text-center'>控制ID</th>
                 <th class='text-center' width="80px" >底部导航</th>
-                <th class='text-center'>应用包名</th>
+                <th class='text-center'>所属用户</th>
                 <th class='text-center'>目标url</th>
             
                 <th class='text-center' width="100px">操作</th>
@@ -88,7 +88,11 @@
                     <input class="list-check-box" value='<?php echo $vo['id']; ?>' type='checkbox'/>
                 </td> -->
                 <td class='text-center'><?php echo (isset($vo['id']) && ($vo['id'] !== '')?$vo['id']:'0'); ?></td>
-                <td class='text-center'><?php echo (isset($vo['appname']) && ($vo['appname'] !== '')?$vo['appname']:''); ?></td>
+                <td class='text-center'>
+                    <?php echo (isset($vo['appname']) && ($vo['appname'] !== '')?$vo['appname']:''); if($vo['appurl'] != ''): ?>
+                    <a href='<?php echo $vo['appurl']; ?>' target="_blank">【下载】</a> 
+                    <?php endif; ?>
+                </td>
                 <td class='text-center'><?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:''); ?></td>
                 <td class='text-center'><a target= _blank href="/api/whereis?id=<?php echo (isset($vo['colurl']) && ($vo['colurl'] !== '')?$vo['colurl']:''); ?>"><?php echo (isset($vo['colurl']) && ($vo['colurl'] !== '')?$vo['colurl']:''); ?></a>
                     <?php if($vo['status'] == 0): ?>
@@ -104,7 +108,7 @@
                         有
                     <?php endif; ?>
                 </td>
-                <td class='text-center'><?php echo (isset($vo['appid']) && ($vo['appid'] !== '')?$vo['appid']:''); ?></td>
+                <td class='text-center'><?php echo (isset($vo['username']) && ($vo['username'] !== '')?$vo['username']:''); ?></td>
                 <td class='text-center'><?php echo (isset($vo['tourl']) && ($vo['tourl'] !== '')?$vo['tourl']:''); ?></td>
                 <td class='text-center nowrap'>
 

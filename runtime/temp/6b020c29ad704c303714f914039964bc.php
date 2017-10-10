@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:76:"/Users/yanglong/phpProject/JSControl/application/admin/view/index.index.html";i:1506619972;s:75:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.main.html";i:1506619972;s:79:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.main.top.html";i:1506869884;s:80:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.main.left.html";i:1506619972;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:76:"/Users/yanglong/phpProject/JSControl/application/admin/view/index.index.html";i:1506619972;s:75:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.main.html";i:1506619972;s:79:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.main.top.html";i:1507518194;s:80:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.main.left.html";i:1506619972;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
     <head>
@@ -57,11 +57,11 @@
                                     <span><i class='glyphicon glyphicon-lock'></i> 修改密码</span>
                                 </a>
                             </li>
-                            <li class="topbar-info-btn">
+                            <!-- <li class="topbar-info-btn">
                                 <a data-modal="<?php echo url('admin/index/info'); ?>?id=<?php echo session('user.id'); ?>">
                                     <span><i class='glyphicon glyphicon-edit'></i> 修改资料</span>
                                 </a>
-                            </li>
+                            </li> -->
                             <li class="topbar-info-btn">
                                 <a data-load="<?php echo url('admin/login/out'); ?>" data-confirm='确定要退出登录吗？'>
                                     <span><i class="glyphicon glyphicon-log-out"></i> 退出登录</span>
