@@ -21,6 +21,11 @@
                 <input type="text" name="colurl" value="{$Think.get.colurl|default=''}" placeholder="控制ID" class="input-sm form-control">
             </div>
         </div>
+        <div class="layui-form-item layui-inline">
+            <div class="layui-input-inline">
+                <input type="text" name="username" value="{$Think.get.username|default=''}" placeholder="管理用户" class="input-sm form-control">
+            </div>
+        </div>
     <div class="layui-form-item layui-inline">
         <div class="layui-input-inline">
             <select name='center' class='layui-select full-width'>
@@ -73,7 +78,7 @@
                 <td class='text-center'>
                     {$vo.appname|default=''}
                     {if $vo.appurl neq '' }
-                    <a href='{$vo.appurl}' target="_blank">【下载】</a> 
+                    <a href='{$vo.appurl}' target="_blank" style="font-size: 11px;color: green">【APP链接】</a> 
                     {/if}
                 </td>
                 <td class='text-center'>{$vo.center|default=''}</td>

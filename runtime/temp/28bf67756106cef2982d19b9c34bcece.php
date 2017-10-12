@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html";i:1507617773;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html";i:1507813147;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
 <div class="ibox">
     
     <?php if(isset($title)): ?>
@@ -37,6 +37,11 @@
     <div class="layui-form-item layui-inline">
             <div class="layui-input-inline">
                 <input type="text" name="colurl" value="<?php echo (\think\Request::instance()->get('colurl') ?: ''); ?>" placeholder="控制ID" class="input-sm form-control">
+            </div>
+        </div>
+        <div class="layui-form-item layui-inline">
+            <div class="layui-input-inline">
+                <input type="text" name="username" value="<?php echo (\think\Request::instance()->get('username') ?: ''); ?>" placeholder="管理用户" class="input-sm form-control">
             </div>
         </div>
     <div class="layui-form-item layui-inline">
@@ -90,7 +95,7 @@
                 <td class='text-center'><?php echo (isset($vo['id']) && ($vo['id'] !== '')?$vo['id']:'0'); ?></td>
                 <td class='text-center'>
                     <?php echo (isset($vo['appname']) && ($vo['appname'] !== '')?$vo['appname']:''); if($vo['appurl'] != ''): ?>
-                    <a href='<?php echo $vo['appurl']; ?>' target="_blank">【下载】</a> 
+                    <a href='<?php echo $vo['appurl']; ?>' target="_blank" style="font-size: 11px;color: green">【APP链接】</a> 
                     <?php endif; ?>
                 </td>
                 <td class='text-center'><?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:''); ?></td>
