@@ -21,11 +21,13 @@
                 <input type="text" name="colurl" value="{$Think.get.colurl|default=''}" placeholder="控制ID" class="input-sm form-control">
             </div>
         </div>
+        {if(session('user.username'))=="admin"}
         <div class="layui-form-item layui-inline">
             <div class="layui-input-inline">
                 <input type="text" name="username" value="{$Think.get.username|default=''}" placeholder="管理用户" class="input-sm form-control">
             </div>
         </div>
+        {/if}
     <div class="layui-form-item layui-inline">
         <div class="layui-input-inline">
             <select name='center' class='layui-select full-width'>
