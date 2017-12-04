@@ -18,7 +18,7 @@ class user{
         $appmarket = isset($_POST['appmarket'])?$_POST['appmarket']:'';
         $remark = isset($_POST['remark'])?$_POST['remark']:'';
         $usataus = isset($_POST['usataus'])?$_POST['usataus']:'';
-        
+            
         $data= ['loginname' => $loginname,
                 'pwd' => $pwd,
                 'username' => $username,
