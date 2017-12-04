@@ -34,4 +34,11 @@ class user{
         $json=array ('code'=>200,'msg'=> $res);
         return json_encode($json);
     }
+
+
+    public function test()
+    {
+        $json=array ('kk'=>0,'kks'=>'');
+        return json_encode($json);
+    }
 }
