@@ -18,27 +18,23 @@ class Reguser{
         $appmarket = isset($_POST['appmarket'])?$_POST['appmarket']:'';
         $remark = isset($_POST['remark'])?$_POST['remark']:'';
         $usataus = isset($_POST['usataus'])?$_POST['usataus']:'';
-            
-        $data= ['loginname' => $loginname,
-                'pwd' => $pwd,
-                'username' => $username,
-                'appid' => $appid,
-                'appname' => $appname,
-                'tel' => $tel,
-                'status' => $status,
-                'appmarket' => $appmarket,
-                'remark' => $remark,
-                'usataus' => $usataus];
         
-        $res=\think\Db::table('user_table')->insert($data);
-        $json=array ('code'=>200,'msg'=> $res);
-        return json_encode($json);
-    }
-
-
-    public function test()
-    {
-        $json=array ('kk'=>0,'kks'=>'');
-        return json_encode($json);
+        if($loginname!='' && $pwd!=''){
+            return json_encode(array ('code'=>-1,'msg'=>'请输入参数'));
+        }else{
+            $data= ['loginname' => $loginname,
+            'pwd' => $pwd,
+            'username' => $username,
+            'appid' => $appid,
+            'appname' => $appname,
+            'tel' => $tel,
+            'status' => $status,
+            'appmarket' => $appmarket,
+            'remark' => $remark,
+            'usataus' => $usataus];
+            $res=\think\Db::table('user_table')->insert($data);
+            $json=array ('code'=>200,'msg'=> $res);
+            return json_encode($json);
+        }
     }
 }
