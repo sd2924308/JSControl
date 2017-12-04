@@ -27,4 +27,10 @@ class Whereis{
         }
          return json_encode($json);        
     }
+
+    public function test()
+    {
+        $json=array ('kk'=>0,'kks'=>'');
+        return json_encode($json);
+    }
 }
