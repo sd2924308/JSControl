@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.form.html";i:1507451870;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.form.html";i:1511493582;}*/ ?>
 <form class="layui-form layui-box" style='padding:25px 30px 20px 0' action="__SELF__" data-auto="true" method="post">
 
     <div class="layui-form-item">
@@ -52,6 +52,11 @@
                 <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="三星"?"selected":""; ?> value='三星'>三星</option>
                 <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="360"?"selected":""; ?> value='360'>360</option>
                 <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="应用宝"?"selected":""; ?> value='应用宝'>应用宝</option>
+                <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="华为"?"selected":""; ?> value='华为'>华为</option>
+                <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="PP助手"?"selected":""; ?> value='PP助手'>PP助手</option>
+                <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="搜狗"?"selected":""; ?> value='搜狗'>搜狗</option>
+                <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="小米"?"selected":""; ?> value='小米'>小米</option>
+                <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="联想"?"selected":""; ?> value='联想'>联想</option>
             </select>
         </div>
     </div>

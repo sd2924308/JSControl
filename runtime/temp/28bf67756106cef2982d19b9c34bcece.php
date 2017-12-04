@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html";i:1507813147;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html";i:1511492695;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
 <div class="ibox">
     
     <?php if(isset($title)): ?>
@@ -39,11 +39,13 @@
                 <input type="text" name="colurl" value="<?php echo (\think\Request::instance()->get('colurl') ?: ''); ?>" placeholder="控制ID" class="input-sm form-control">
             </div>
         </div>
+        <?php if((session('user.username'))=="admin"): ?>
         <div class="layui-form-item layui-inline">
             <div class="layui-input-inline">
                 <input type="text" name="username" value="<?php echo (\think\Request::instance()->get('username') ?: ''); ?>" placeholder="管理用户" class="input-sm form-control">
             </div>
         </div>
+        <?php endif; ?>
     <div class="layui-form-item layui-inline">
         <div class="layui-input-inline">
             <select name='center' class='layui-select full-width'>
@@ -54,6 +56,11 @@
                 <option <?php echo \think\Request::instance()->get('center')=="三星"?"selected":""; ?> value='三星'>三星</option>
                 <option <?php echo \think\Request::instance()->get('center')=="360"?"selected":""; ?> value='360'>360</option>
                 <option <?php echo \think\Request::instance()->get('center')=="应用宝"?"selected":""; ?> value='应用宝'>应用宝</option>
+                <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="华为"?"selected":""; ?> value='华为'>华为</option>
+                <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="PP助手"?"selected":""; ?> value='PP助手'>PP助手</option>
+                <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="搜狗"?"selected":""; ?> value='搜狗'>搜狗</option>
+                <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="小米"?"selected":""; ?> value='小米'>小米</option>
+                <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="联想"?"selected":""; ?> value='联想'>联想</option>
             </select>
         </div>
     </div>
