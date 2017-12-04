@@ -19,7 +19,7 @@ class Reguser{
         $remark = isset($_POST['remark'])?$_POST['remark']:'';
         $usataus = isset($_POST['usataus'])?$_POST['usataus']:'';
         
-        if($loginname!='' && $pwd!=''){
+        if($loginname='' ||  $pwd=''){
             return json_encode(array ('code'=>-1,'msg'=>'请输入参数'));
         }else{
             $data= ['loginname' => $loginname,
