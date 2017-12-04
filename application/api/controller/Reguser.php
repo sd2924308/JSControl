@@ -5,7 +5,7 @@ use think\Db;
 
 namespace app\api\controller;
 
-class user{
+class Reguser{
     public function regUser(){
    
         $loginname = isset($_POST['loginname'])?$_POST['loginname']:'';
