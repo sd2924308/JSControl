@@ -1,10 +1,8 @@
-{extend name='extra@admin/content'} {block name="button"}
-{if auth("$classuri/add")}
+{extend name='extra@admin/content'} {block name="button"} {if auth("$classuri/add")}
 <div class="nowrap pull-right" style="margin-top:10px">
     <button data-modal="{:url('add')}" data-title="添加应用" class='layui-btn layui-btn-small'> 添加应用 </button>
 </div>
-{/if}
-{/block} {block name="content"}
+{/if} {/block} {block name="content"}
 
 <!-- 表单搜索 开始 -->
 <!-- <form class="animated form-search" action="__SELF__" onsubmit="return false" method="get"> -->
@@ -17,37 +15,30 @@
         </div>
     </div>
     <div class="layui-form-item layui-inline">
-            <div class="layui-input-inline">
-                <input type="text" name="colurl" value="{$Think.get.colurl|default=''}" placeholder="控制ID" class="input-sm form-control">
-            </div>
+        <div class="layui-input-inline">
+            <input type="text" name="colurl" value="{$Think.get.colurl|default=''}" placeholder="控制ID" class="input-sm form-control">
         </div>
-        {if(session('user.username'))=="admin"}
-        <div class="layui-form-item layui-inline">
-            <div class="layui-input-inline">
-                <input type="text" name="username" value="{$Think.get.username|default=''}" placeholder="管理用户" class="input-sm form-control">
-            </div>
+    </div>
+    {if(session('user.username'))=="admin"}
+    <div class="layui-form-item layui-inline">
+        <div class="layui-input-inline">
+            <input type="text" name="username" value="{$Think.get.username|default=''}" placeholder="管理用户" class="input-sm form-control">
         </div>
-        {/if}
+    </div>
+    {/if}
     <div class="layui-form-item layui-inline">
         <div class="layui-input-inline">
             <select name='center' class='layui-select full-width'>
-                <option  value=''>选择平台</option>
-                <option {$Think.get.center=="百度"?"selected":""} value='百度'>百度</option>
-                <option {$Think.get.center=="VIVO"?"selected":""} value='VIVO'>VIVO</option>
-                <option {$Think.get.center=="安智"?"selected":""} value='安智'>安智</option>
-                <option {$Think.get.center=="三星"?"selected":""} value='三星'>三星</option>
-                <option {$Think.get.center=="360"?"selected":""} value='360'>360</option>
-                <option {$Think.get.center=="应用宝"?"selected":""} value='应用宝'>应用宝</option>
-                <option {$vo.center|default=""=="华为"?"selected":""} value='华为'>华为</option>
-                <option {$vo.center|default=""=="PP助手"?"selected":""} value='PP助手'>PP助手</option>
-                <option {$vo.center|default=""=="搜狗"?"selected":""} value='搜狗'>搜狗</option>
-                <option {$vo.center|default=""=="小米"?"selected":""} value='小米'>小米</option>
-                <option {$vo.center|default=""=="联想"?"selected":""} value='联想'>联想</option>
+                <option value=''>选择平台</option>
+                {foreach $marklist as $key=>$mk}
+                    <option {$Think.get.center==$key? "selected": ""} value='{$key}'>{$mk}</option>
+                {/foreach}
             </select>
         </div>
     </div>
     <div class="layui-form-item layui-inline">
-        <button type="submit" class="btn btn-sm btn-white"><i class="fa fa-search"></i> 搜索</button>
+        <button type="submit" class="btn btn-sm btn-white">
+            <i class="fa fa-search"></i> 搜索</button>
     </div>
 
     <!-- 
@@ -68,10 +59,10 @@
                 <th class='text-center'>应用名称</th>
                 <th class='text-center' width="80px">平台</th>
                 <th class='text-center'>控制ID</th>
-                <th class='text-center' width="80px" >底部导航</th>
+                <th class='text-center' width="80px">底部导航</th>
                 <th class='text-center'>所属用户</th>
                 <th class='text-center'>目标url</th>
-            
+
                 <th class='text-center' width="100px">操作</th>
             </tr>
         </thead>
@@ -83,44 +74,38 @@
                 </td> -->
                 <td class='text-center'>{$vo.id|default='0'}</td>
                 <td class='text-center'>
-                    {$vo.appname|default=''}
-                    {if $vo.appurl neq '' }
-                    <a href='{$vo.appurl}' target="_blank" style="font-size: 11px;color: green">【APP链接】</a> 
+                    {$vo.appname|default=''} {if $vo.appurl neq '' }
+                    <a href='{$vo.appurl}' target="_blank" style="font-size: 11px;color: green">【APP链接】</a>
                     {/if}
                 </td>
                 <td class='text-center'>{$vo.center|default=''}</td>
-                <td class='text-center'><a target= _blank href="/api/whereis?id={$vo.colurl|default=''}">{$vo.colurl|default=''}</a>
+                <td class='text-center'>
+                    <a target=_ blank href="/api/whereis?id={$vo.colurl|default=''}">{$vo.colurl|default=''}</a>
                     {if $vo.status eq 0}
                     <span style="font-size: 11px;color: red">【未启用】</span>
                     {else}
-                    <span style="font-size: 11px;color: green">【已启用】</span> 
+                    <span style="font-size: 11px;color: green">【已启用】</span>
                     {/if}
                 </td>
-                <td  class='text-center'>
-                    {if $vo.ismenu eq 0}
-                        无
-                    {else}
-                        有
-                    {/if}
+                <td class='text-center'>
+                    {if $vo.ismenu eq 0} 无 {else} 有 {/if}
                 </td>
                 <td class='text-center'>{$vo.username|default=''}</td>
                 <td class='text-center'>{$vo.tourl|default=''}</td>
                 <td class='text-center nowrap'>
 
-                    <span class="text-explode">|</span> 
+                    <span class="text-explode">|</span>
                     {if $vo.status eq 0}
                     <a data-update="{$vo.id}" data-field='status' data-value='1' data-action='{:url("$classuri/resume")}' style="color:green"
-                        href="javascript:void(0)">启用</a> 
-                        {elseif $vo.status eq 1}
-                    <a data-update="{$vo.id}" data-field='status' data-value='0' data-action='{:url("$classuri/forbid")}' style="color:red" href="javascript:void(0)">停用</a>                    
-                    {/if} 
-                    {if auth("$classuri/edit")}
+                        href="javascript:void(0)">启用</a>
+                    {elseif $vo.status eq 1}
+                    <a data-update="{$vo.id}" data-field='status' data-value='0' data-action='{:url("$classuri/forbid")}' style="color:red" href="javascript:void(0)">停用</a>
+                    {/if} {if auth("$classuri/edit")}
                     <span class="text-explode">|</span>
-                    <a data-modal='{:url("$classuri/edit")}?id={$vo.id}' data-title="编辑标签" href="javascript:void(0)">编辑</a>                    
-                    {/if}
-                    {if auth("$classuri/del")}
+                    <a data-modal='{:url("$classuri/edit")}?id={$vo.id}' data-title="编辑标签" href="javascript:void(0)">编辑</a>
+                    {/if} {if auth("$classuri/del")}
                     <span class="text-explode">|</span>
-                    <a data-update="{$vo.id}" data-field='delete' data-action='{:url("$classuri/del")}' href="javascript:void(0)">删除</a>                    
+                    <a data-update="{$vo.id}" data-field='delete' data-action='{:url("$classuri/del")}' href="javascript:void(0)">删除</a>
                     {/if}
 
                 </td>
@@ -135,11 +120,10 @@
     {if isset($page)}
     <p>{$page}</p>{/if}
 </form>
-{/block}
-{block name="script"}
+{/block} {block name="script"}
 <script>
     (function () {
-        window.form.render(); 
+        window.form.render();
     })();
 </script>
 {/block}

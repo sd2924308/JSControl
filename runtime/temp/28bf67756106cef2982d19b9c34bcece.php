@@ -1,16 +1,14 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html";i:1511492695;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html";i:1512835924;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
 <div class="ibox">
     
     <?php if(isset($title)): ?>
     <div class="ibox-title notselect">
         <h5><?php echo $title; ?></h5>
-        
-<?php if(auth("$classuri/add")): ?>
+         <?php if(auth("$classuri/add")): ?>
 <div class="nowrap pull-right" style="margin-top:10px">
     <button data-modal="<?php echo url('add'); ?>" data-title="添加应用" class='layui-btn layui-btn-small'> 添加应用 </button>
 </div>
-<?php endif; ?>
-
+<?php endif; ?> 
     </div>
     <?php endif; ?>
     <div class="ibox-content">
@@ -35,37 +33,30 @@
         </div>
     </div>
     <div class="layui-form-item layui-inline">
-            <div class="layui-input-inline">
-                <input type="text" name="colurl" value="<?php echo (\think\Request::instance()->get('colurl') ?: ''); ?>" placeholder="控制ID" class="input-sm form-control">
-            </div>
+        <div class="layui-input-inline">
+            <input type="text" name="colurl" value="<?php echo (\think\Request::instance()->get('colurl') ?: ''); ?>" placeholder="控制ID" class="input-sm form-control">
         </div>
-        <?php if((session('user.username'))=="admin"): ?>
-        <div class="layui-form-item layui-inline">
-            <div class="layui-input-inline">
-                <input type="text" name="username" value="<?php echo (\think\Request::instance()->get('username') ?: ''); ?>" placeholder="管理用户" class="input-sm form-control">
-            </div>
+    </div>
+    <?php if((session('user.username'))=="admin"): ?>
+    <div class="layui-form-item layui-inline">
+        <div class="layui-input-inline">
+            <input type="text" name="username" value="<?php echo (\think\Request::instance()->get('username') ?: ''); ?>" placeholder="管理用户" class="input-sm form-control">
         </div>
-        <?php endif; ?>
+    </div>
+    <?php endif; ?>
     <div class="layui-form-item layui-inline">
         <div class="layui-input-inline">
             <select name='center' class='layui-select full-width'>
-                <option  value=''>选择平台</option>
-                <option <?php echo \think\Request::instance()->get('center')=="百度"?"selected":""; ?> value='百度'>百度</option>
-                <option <?php echo \think\Request::instance()->get('center')=="VIVO"?"selected":""; ?> value='VIVO'>VIVO</option>
-                <option <?php echo \think\Request::instance()->get('center')=="安智"?"selected":""; ?> value='安智'>安智</option>
-                <option <?php echo \think\Request::instance()->get('center')=="三星"?"selected":""; ?> value='三星'>三星</option>
-                <option <?php echo \think\Request::instance()->get('center')=="360"?"selected":""; ?> value='360'>360</option>
-                <option <?php echo \think\Request::instance()->get('center')=="应用宝"?"selected":""; ?> value='应用宝'>应用宝</option>
-                <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="华为"?"selected":""; ?> value='华为'>华为</option>
-                <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="PP助手"?"selected":""; ?> value='PP助手'>PP助手</option>
-                <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="搜狗"?"selected":""; ?> value='搜狗'>搜狗</option>
-                <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="小米"?"selected":""; ?> value='小米'>小米</option>
-                <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="联想"?"selected":""; ?> value='联想'>联想</option>
+                <option value=''>选择平台</option>
+                <?php foreach($marklist as $key=>$mk): ?>
+                    <option <?php echo \think\Request::instance()->get('center')==$key?"selected": ""; ?> value='<?php echo $key; ?>'><?php echo $mk; ?></option>
+                <?php endforeach; ?>
             </select>
         </div>
     </div>
     <div class="layui-form-item layui-inline">
-        <button type="submit" class="btn btn-sm btn-white"><i class="fa fa-search"></i> 搜索</button>
+        <button type="submit" class="btn btn-sm btn-white">
+            <i class="fa fa-search"></i> 搜索</button>
     </div>
 
     <!-- 
@@ -86,10 +77,10 @@
                 <th class='text-center'>应用名称</th>
                 <th class='text-center' width="80px">平台</th>
                 <th class='text-center'>控制ID</th>
-                <th class='text-center' width="80px" >底部导航</th>
+                <th class='text-center' width="80px">底部导航</th>
                 <th class='text-center'>所属用户</th>
                 <th class='text-center'>目标url</th>
-            
+
                 <th class='text-center' width="100px">操作</th>
             </tr>
         </thead>
@@ -102,40 +93,37 @@
                 <td class='text-center'><?php echo (isset($vo['id']) && ($vo['id'] !== '')?$vo['id']:'0'); ?></td>
                 <td class='text-center'>
                     <?php echo (isset($vo['appname']) && ($vo['appname'] !== '')?$vo['appname']:''); if($vo['appurl'] != ''): ?>
-                    <a href='<?php echo $vo['appurl']; ?>' target="_blank" style="font-size: 11px;color: green">【APP链接】</a> 
+                    <a href='<?php echo $vo['appurl']; ?>' target="_blank" style="font-size: 11px;color: green">【APP链接】</a>
                     <?php endif; ?>
                 </td>
                 <td class='text-center'><?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:''); ?></td>
-                <td class='text-center'><a target= _blank href="/api/whereis?id=<?php echo (isset($vo['colurl']) && ($vo['colurl'] !== '')?$vo['colurl']:''); ?>"><?php echo (isset($vo['colurl']) && ($vo['colurl'] !== '')?$vo['colurl']:''); ?></a>
+                <td class='text-center'>
+                    <a target=_ blank href="/api/whereis?id=<?php echo (isset($vo['colurl']) && ($vo['colurl'] !== '')?$vo['colurl']:''); ?>"><?php echo (isset($vo['colurl']) && ($vo['colurl'] !== '')?$vo['colurl']:''); ?></a>
                     <?php if($vo['status'] == 0): ?>
                     <span style="font-size: 11px;color: red">【未启用】</span>
                     <?php else: ?>
-                    <span style="font-size: 11px;color: green">【已启用】</span> 
+                    <span style="font-size: 11px;color: green">【已启用】</span>
                     <?php endif; ?>
                 </td>
-                <td  class='text-center'>
-                    <?php if($vo['ismenu'] == 0): ?>
-                        无
-                    <?php else: ?>
-                        有
-                    <?php endif; ?>
+                <td class='text-center'>
+                    <?php if($vo['ismenu'] == 0): ?> 无 <?php else: ?> 有 <?php endif; ?>
                 </td>
                 <td class='text-center'><?php echo (isset($vo['username']) && ($vo['username'] !== '')?$vo['username']:''); ?></td>
                 <td class='text-center'><?php echo (isset($vo['tourl']) && ($vo['tourl'] !== '')?$vo['tourl']:''); ?></td>
                 <td class='text-center nowrap'>
 
-                    <span class="text-explode">|</span> 
+                    <span class="text-explode">|</span>
                     <?php if($vo['status'] == 0): ?>
                     <a data-update="<?php echo $vo['id']; ?>" data-field='status' data-value='1' data-action='<?php echo url("$classuri/resume"); ?>' style="color:green"
-                        href="javascript:void(0)">启用</a> 
-                        <?php elseif($vo['status'] == 1): ?>
-                    <a data-update="<?php echo $vo['id']; ?>" data-field='status' data-value='0' data-action='<?php echo url("$classuri/forbid"); ?>' style="color:red" href="javascript:void(0)">停用</a>                    
+                        href="javascript:void(0)">启用</a>
+                    <?php elseif($vo['status'] == 1): ?>
+                    <a data-update="<?php echo $vo['id']; ?>" data-field='status' data-value='0' data-action='<?php echo url("$classuri/forbid"); ?>' style="color:red" href="javascript:void(0)">停用</a>
                     <?php endif; if(auth("$classuri/edit")): ?>
                     <span class="text-explode">|</span>
-                    <a data-modal='<?php echo url("$classuri/edit"); ?>?id=<?php echo $vo['id']; ?>' data-title="编辑标签" href="javascript:void(0)">编辑</a>                    
+                    <a data-modal='<?php echo url("$classuri/edit"); ?>?id=<?php echo $vo['id']; ?>' data-title="编辑标签" href="javascript:void(0)">编辑</a>
                     <?php endif; if(auth("$classuri/del")): ?>
                     <span class="text-explode">|</span>
-                    <a data-update="<?php echo $vo['id']; ?>" data-field='delete' data-action='<?php echo url("$classuri/del"); ?>' href="javascript:void(0)">删除</a>                    
+                    <a data-update="<?php echo $vo['id']; ?>" data-field='delete' data-action='<?php echo url("$classuri/del"); ?>' href="javascript:void(0)">删除</a>
                     <?php endif; ?>
 
                 </td>
@@ -155,7 +143,7 @@
     
 <script>
     (function () {
-        window.form.render(); 
+        window.form.render();
     })();
 </script>
 

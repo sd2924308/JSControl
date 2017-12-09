@@ -36,7 +36,7 @@ class Fans extends BasicAdmin
      * @var string
      */
     public $table = 'UserTable';
-
+    
     /**
      * 显示粉丝标签列表
      * @return array|string
@@ -46,6 +46,7 @@ class Fans extends BasicAdmin
       
         $this->title = '人员管理';
         $db = Db::name($this->table)->order('id desc');
+
         // foreach (['appid'] as $key) {
         //     if (isset($get[$key]) && $get[$key] !== '') {
         //         $db->where($key, 'like', "%{$get[$key]}%");
@@ -54,11 +55,15 @@ class Fans extends BasicAdmin
         $appid = $this->request->get('appid','');
         if($appid != '')
             $db->where(['appid' => $appid]);
+        
 
+        
         if(session('user.username')!='admin')
-            $this->assign('apps', Db::name('AppTable')->where(['username' => session('user.username')])->select());
+            $applist= Db::name('AppTable')->where(['username' => session('user.username')])->select();
         else
-            $this->assign('apps', Db::name('AppTable')->select());
+            $applist= Db::name('AppTable')->select();
+
+        $this->assign('apps',$applist);
 
         // if(session('user.username')!='admin')
         //     $db->where('username',session('user.username'));
@@ -66,23 +71,49 @@ class Fans extends BasicAdmin
     }
 
 
-
     public function _form_filter(&$data)
     {
         if ($this->request->isPost()) {
             $dataid=!empty($data['id']) ? $data['id'] : '';
            
-
-           
-            if (Db::name($this->table)->where(['colurl' => $data['colurl'],'id'=>['<>',$dataid]])->find()) {
-                $this->error('这个控制ID已经使用过了,请更换!');
-            }
+            // if (Db::name($this->table)->where(['colurl' => $data['colurl'],'id'=>['<>',$dataid]])->find()) {
+            //     $this->error('这个控制ID已经使用过了,请更换!');
+            // }
         }else{
-            $data['user'] = explode(',', isset($data['user']) ? $data['user'] : '');
-            $this->assign('users', Db::name('SystemUser')->where(['is_deleted' => '0'])->select());
+            // $data['user'] = explode(',', isset($data['user']) ? $data['user'] : '');
+            // $this->assign('users', Db::name('SystemUser')->where(['is_deleted' => '0'])->select());
+            $this->assign('marklist', $this->markList);
+            if(isset($data['appid'])){
+                $data['appname'] = Db::name('AppTable')
+                ->field('appname')
+                ->where('colurl','eq', $data['appid'])
+                ->find()['appname'];   
+            }
 
+            if(session('user.username')!='admin')
+                $applist= Db::name('AppTable')->where(['username' => session('user.username')])->select();
+            else
+                $applist= Db::name('AppTable')->select();
+
+            $this->assign('apps',$applist);
         }
     }
+
+
+    protected function _index_data_filter(&$data)
+    {
+        foreach ($data as &$vo) {
+            $vo['appname'] = Db::name('AppTable')
+            ->field('appname')
+            ->where('colurl','eq', $vo['appid'])
+            ->find()['appname'];
+        }
+
+        
+    }
+
+
+    
 
     /**
      * 添加粉丝标签
@@ -123,6 +154,16 @@ class Fans extends BasicAdmin
          $this->error("停用失败，请稍候再试！!");
      }
 
+    /**
+     * 修改状态
+     */
+     public function upsta()
+     {
+         if (DataService::update($this->table)) {
+             $this->success("更新成功！", '');
+         }
+         $this->error("更新失败，请稍候再试！!");
+     }
 
       /**
      * 权限恢复

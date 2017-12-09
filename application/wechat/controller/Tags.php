@@ -54,6 +54,9 @@ class Tags extends BasicAdmin
 
         if(session('user.username')!='admin')
             $db->where('username',session('user.username'));
+
+         $this->assign('marklist', $this->markList);
+        
         return parent::_list($db);
     }
 
@@ -71,6 +74,7 @@ class Tags extends BasicAdmin
         }else{
             $data['user'] = explode(',', isset($data['user']) ? $data['user'] : '');
             $this->assign('users', Db::name('SystemUser')->where(['is_deleted' => '0'])->select());
+            $this->assign('marklist', $this->markList);
         }
     }
 

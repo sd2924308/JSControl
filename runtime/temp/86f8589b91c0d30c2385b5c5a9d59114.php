@@ -1,106 +1,80 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"/Users/yanglong/phpProject/JSControl/application/wechat/view/fans.form.html";i:1512316316;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"/Users/yanglong/phpProject/JSControl/application/wechat/view/fans.form.html";i:1512837364;}*/ ?>
 <form class="layui-form layui-box" style='padding:25px 30px 20px 0' action="__SELF__" data-auto="true" method="post">
-    
-        <div class="layui-form-item">
-            <label class="layui-form-label">应用名称</label>
-            <div class="layui-input-block">
-                <input type="text" name="appname" value='<?php echo (isset($vo['appname']) && ($vo['appname'] !== '')?$vo['appname']:""); ?>' required="required" title="请输入应用名称" placeholder="请输入标签名称"
-                    class="layui-input">
-            </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">所属应用</label>
+        <div class="layui-input-block" style="line-height: 36px;">
+            <select name='appid' class='layui-select full-width'>
+                <?php foreach($apps as $app): ?>
+                <option <?php echo (isset($vo['appid']) && ($vo['appid'] !== '')?$vo['appid']:"")==$app['colurl']?"selected": ""; ?> value='<?php echo $app['colurl']; ?>'><?php echo $app['appname']; ?></option>
+
+                <?php endforeach; ?>
+            </select>
         </div>
-        <div class="layui-form-item">
-            <label class="layui-form-label">控制ID</label>
-            <div class="layui-input-block">
-                <input type="text" name="colurl" value='<?php echo (isset($vo['colurl']) && ($vo['colurl'] !== '')?$vo['colurl']:""); ?>' placeholder="控制地址" class="layui-input">
-            </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">市场来源</label>
+        <div class="layui-input-block" style="line-height: 36px;">
+            <select name='appmarket' class='layui-select full-width'>
+                <?php foreach($marklist as $key=>$mk): ?>
+                <option <?php echo (isset($vo['appmarket']) && ($vo['appmarket'] !== '')?$vo['appmarket']:"")==$key?"selected": ""; ?> value='<?php echo $key; ?>'><?php echo $mk; ?></option>
+                <?php endforeach; ?>
+            </select>
         </div>
-        <div class="layui-form-item">
-            <label class="layui-form-label">底部导航</label>
-            <div class="layui-input-block">
-                <label class="think-radio">
-                    <input <?php echo (isset($vo['ismenu']) && ($vo['ismenu'] !== '')?$vo['ismenu']:"0")=="1"?"checked":""; ?>  type="radio" name="ismenu" value="1" lay-ignore> 有 
-                </label>
-                <label class="think-radio">
-                    <input <?php echo (isset($vo['ismenu']) && ($vo['ismenu'] !== '')?$vo['ismenu']:"0")=="0"?"checked":""; ?>  type="radio" name="ismenu" value="0" lay-ignore> 无
-                </label>
-            </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">姓名</label>
+        <div class="layui-input-block">
+            <input type="text" name="username" value='<?php echo (isset($vo['username']) && ($vo['username'] !== '')?$vo['username']:""); ?>' required="required" title="姓名" placeholder="请输入姓名" class="layui-input">
         </div>
-    
-    
-        <div class="layui-form-item">
-            <label class="layui-form-label">应用包名</label>
-            <div class="layui-input-block">
-                <input type="text" name="appid" value='<?php echo (isset($vo['appid']) && ($vo['appid'] !== '')?$vo['appid']:""); ?>' title="请输入应用包名" placeholder="请输入标签名称" class="layui-input">
-            </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">电话</label>
+        <div class="layui-input-block">
+            <input type="text" name="tel" value='<?php echo (isset($vo['tel']) && ($vo['tel'] !== '')?$vo['tel']:""); ?>' required="required" title="电话" placeholder="请输入电话" class="layui-input">
         </div>
-        <div class="layui-form-item">
-            <label class="layui-form-label">目标网站</label>
-            <div class="layui-input-block">
-                <input type="text" name="tourl" value='<?php echo (isset($vo['tourl']) && ($vo['tourl'] !== '')?$vo['tourl']:""); ?>' placeholder="启用后app转向地址" class="layui-input">
-            </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">用户状态</label>
+        <div class="layui-input-block">
+            <label class="think-radio">
+                <input <?php echo (isset($vo['usataus']) && ($vo['usataus'] !== '')?$vo['usataus']:"0")=="0"?"checked": ""; ?> type="radio" name="usataus" value="0" lay-ignore> 未审核
+            </label>
+            <label class="think-radio">
+                <input <?php echo (isset($vo['usataus']) && ($vo['usataus'] !== '')?$vo['usataus']:"0")=="1"?"checked": ""; ?> type="radio" name="usataus" value="1" lay-ignore> 已审核
+            </label>
+            <label class="think-radio">
+                <input <?php echo (isset($vo['usataus']) && ($vo['usataus'] !== '')?$vo['usataus']:"0")=="2"?"checked": ""; ?> type="radio" name="usataus" value="2" lay-ignore> 黑名单
+            </label>
+            <label class="think-radio">
+                <input <?php echo (isset($vo['usataus']) && ($vo['usataus'] !== '')?$vo['usataus']:"0")=="3"?"checked": ""; ?> type="radio" name="usataus" value="3" lay-ignore> VIP
+            </label>
         </div>
-    
-        <div class="layui-form-item">
-            <label class="layui-form-label">上架平台</label>
-            <div class="layui-input-block">
-                <select name='center' class='layui-select full-width'>
-                   
-                    <option  value=''>请选择上架平台<?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:""); ?></option>
-                    <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="百度"?"selected":""; ?> value='百度'>百度</option>
-                    <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="VIVO"?"selected":""; ?> value='VIVO'>VIVO</option>
-                    <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="安智"?"selected":""; ?> value='安智'>安智</option>
-                    <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="三星"?"selected":""; ?> value='三星'>三星</option>
-                    <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="360"?"selected":""; ?> value='360'>360</option>
-                    <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="应用宝"?"selected":""; ?> value='应用宝'>应用宝</option>
-                    <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="华为"?"selected":""; ?> value='华为'>华为</option>
-                    <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="PP助手"?"selected":""; ?> value='PP助手'>PP助手</option>
-                    <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="搜狗"?"selected":""; ?> value='搜狗'>搜狗</option>
-                    <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="小米"?"selected":""; ?> value='小米'>小米</option>
-                    <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")=="联想"?"selected":""; ?> value='联想'>联想</option>
-                </select>
-            </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">备注</label>
+        <div class="layui-input-block">
+            <textarea placeholder="请输入备注" title="请输入备注" class="layui-textarea" name="remark"><?php echo (isset($vo['remark']) && ($vo['remark'] !== '')?$vo['remark']:""); ?></textarea>
         </div>
-        <div class="layui-form-item">
-            <label class="layui-form-label">所属用户</label>
-    
-            <div class="layui-input-block">
-                <?php if((session('user.username'))=="admin"): ?>
-                <select name='username' class='layui-select full-width'>
-                    <?php foreach($users1 as $user): if((isset($vo['username']) and $user['username']==$vo['username'])): ?>
-                        <option selected value='<?php echo $user['username']; ?>'>  <?php echo $user['username']; ?></option>
-                        <?php else: ?>
-                        <option value='<?php echo $user['username']; ?>'>  <?php echo $user['username']; ?></option>
-                        <?php endif; endforeach; ?>
-                    
-                </select> 
-                <?php else: ?>
-                <input type="text" name="username" value="<?php echo session('user.username'); ?>" readonly class="layui-input">
-                 <?php endif; ?>
-            </div>
-        </div>
-        <div class="layui-form-item">
-            <label class="layui-form-label">APP下载地址</label>
-            <div class="layui-input-block">
-                <input type="text" name="appurl" value='<?php echo (isset($vo['appurl']) && ($vo['appurl'] !== '')?$vo['appurl']:""); ?>' placeholder="上架成功后填写" class="layui-input">
-            </div>
-        </div>
-    
-        <div class="hr-line-dashed"></div>
-    
-        <div class="layui-form-item text-center">
-    
-            <?php if(isset($vo['id'])): ?><input type='hidden' value='<?php echo $vo['id']; ?>' name='id' /><?php endif; ?>
-    
-            <button class="layui-btn" type='submit'>保存数据</button>
-    
-            <button class="layui-btn layui-btn-danger" type='button' data-confirm="确定要取消编辑吗？" data-close>取消编辑</button>
-    
-        </div>
-    
-    </form>
-    
-    <script>
-        (function () {
-            window.form.render();
-        })();
-    </script>
+    </div>
+
+    <div class="hr-line-dashed"></div>
+
+    <div class="layui-form-item text-center">
+
+        <?php if(isset($vo['id'])): ?>
+        <input type='hidden' value='<?php echo $vo['id']; ?>' name='id' /><?php endif; ?>
+
+        <button class="layui-btn" type='submit'>保存数据</button>
+
+        <button class="layui-btn layui-btn-danger" type='button' data-confirm="确定要取消编辑吗？" data-close>取消编辑</button>
+
+    </div>
+
+</form>
+
+<script>
+    (function () {
+        window.form.render();
+    })();
+</script>

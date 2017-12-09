@@ -38,7 +38,20 @@ class BasicAdmin extends Controller
      * @var string
      */
     public $table;
-
+    
+    public $markList=array(
+        '百度'=>'百度',
+        'VIVO'=>'VIVO',
+        '安智'=>'安智',
+        '三星'=>'三星',
+        '360'=>'360',
+        '应用宝'=>'应用宝',
+        '华为'=>'华为',
+        'PP助手'=>'PP助手',
+        '搜狗'=>'搜狗',
+        '小米'=>'小米',
+        '联想'=>'联想'
+    );
     /**
      * 表单默认操作
      * @param Query $dbQuery 数据库查询对象

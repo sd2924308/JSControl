@@ -45,17 +45,9 @@
             <select name='center' class='layui-select full-width'>
                
                 <option  value=''>请选择上架平台{$vo.center|default=""}</option>
-                <option {$vo.center|default=""=="百度"?"selected":""} value='百度'>百度</option>
-                <option {$vo.center|default=""=="VIVO"?"selected":""} value='VIVO'>VIVO</option>
-                <option {$vo.center|default=""=="安智"?"selected":""} value='安智'>安智</option>
-                <option {$vo.center|default=""=="三星"?"selected":""} value='三星'>三星</option>
-                <option {$vo.center|default=""=="360"?"selected":""} value='360'>360</option>
-                <option {$vo.center|default=""=="应用宝"?"selected":""} value='应用宝'>应用宝</option>
-                <option {$vo.center|default=""=="华为"?"selected":""} value='华为'>华为</option>
-                <option {$vo.center|default=""=="PP助手"?"selected":""} value='PP助手'>PP助手</option>
-                <option {$vo.center|default=""=="搜狗"?"selected":""} value='搜狗'>搜狗</option>
-                <option {$vo.center|default=""=="小米"?"selected":""} value='小米'>小米</option>
-                <option {$vo.center|default=""=="联想"?"selected":""} value='联想'>联想</option>
+                {foreach $marklist as $key=>$mk}
+                    <option {$vo.center|default=""==$key?"selected":""} value='{$key}'>{$mk}</option>
+                {/foreach}
             </select>
         </div>
     </div>
