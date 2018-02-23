@@ -1,11 +1,4 @@
-{extend name='extra@admin/content'} {block name="button"} {if auth("$classuri/add")}
-<div class="nowrap pull-right" style="margin-top:10px">
-    <button data-modal="{:url('add')}" data-title="添加应用" class='layui-btn layui-btn-small'> 新增人员 </button>
-    <button data-update data-field='delete' data-action="{:url('del')}" class='layui-btn layui-btn-small layui-btn-danger'>
-        <i class='fa fa-remove'></i> 删除用户
-    </button>
-</div>
-{/if} {/block} {block name="content"}
+{extend name='extra@admin/content'} {block name="content"}
 
 
 <style>

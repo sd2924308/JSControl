@@ -1,17 +1,10 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/fans.index.html";i:1519372968;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/fans.index.html";i:1519377436;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
 <div class="ibox">
     
     <?php if(isset($title)): ?>
     <div class="ibox-title notselect">
         <h5><?php echo $title; ?></h5>
-         <?php if(auth("$classuri/add")): ?>
-<div class="nowrap pull-right" style="margin-top:10px">
-    <button data-modal="<?php echo url('add'); ?>" data-title="添加应用" class='layui-btn layui-btn-small'> 新增人员 </button>
-    <button data-update data-field='delete' data-action="<?php echo url('del'); ?>" class='layui-btn layui-btn-small layui-btn-danger'>
-        <i class='fa fa-remove'></i> 删除用户
-    </button>
-</div>
-<?php endif; ?> 
+        
     </div>
     <?php endif; ?>
     <div class="ibox-content">
