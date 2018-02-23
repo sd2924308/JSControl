@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html";i:1512835924;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.index.html";i:1519401637;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
 <div class="ibox">
     
     <?php if(isset($title)): ?>
@@ -75,7 +75,7 @@
                 </th> -->
                 <th class='text-center' width="10px">ID</th>
                 <th class='text-center'>应用名称</th>
-                <th class='text-center' width="80px">平台</th>
+                <th class='text-center' width="120px">平台</th>
                 <th class='text-center'>控制ID</th>
                 <th class='text-center' width="80px">底部导航</th>
                 <th class='text-center'>所属用户</th>
@@ -92,9 +92,7 @@
                 </td> -->
                 <td class='text-center'><?php echo (isset($vo['id']) && ($vo['id'] !== '')?$vo['id']:'0'); ?></td>
                 <td class='text-center'>
-                    <?php echo (isset($vo['appname']) && ($vo['appname'] !== '')?$vo['appname']:''); if($vo['appurl'] != ''): ?>
-                    <a href='<?php echo $vo['appurl']; ?>' target="_blank" style="font-size: 11px;color: green">【APP链接】</a>
-                    <?php endif; ?>
+                    <?php echo (isset($vo['appname']) && ($vo['appname'] !== '')?$vo['appname']:''); ?> 
                 </td>
                 <td class='text-center'><?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:''); ?></td>
                 <td class='text-center'>

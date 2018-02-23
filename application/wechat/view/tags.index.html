@@ -57,7 +57,7 @@
                 </th> -->
                 <th class='text-center' width="10px">ID</th>
                 <th class='text-center'>应用名称</th>
-                <th class='text-center' width="80px">平台</th>
+                <th class='text-center' width="120px">平台</th>
                 <th class='text-center'>控制ID</th>
                 <th class='text-center' width="80px">底部导航</th>
                 <th class='text-center'>所属用户</th>
@@ -74,9 +74,7 @@
                 </td> -->
                 <td class='text-center'>{$vo.id|default='0'}</td>
                 <td class='text-center'>
-                    {$vo.appname|default=''} {if $vo.appurl neq '' }
-                    <a href='{$vo.appurl}' target="_blank" style="font-size: 11px;color: green">【APP链接】</a>
-                    {/if}
+                    {$vo.appname|default=''} 
                 </td>
                 <td class='text-center'>{$vo.center|default=''}</td>
                 <td class='text-center'>

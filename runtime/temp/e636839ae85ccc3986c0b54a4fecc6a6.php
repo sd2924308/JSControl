@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.form.html";i:1512835980;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"/Users/yanglong/phpProject/JSControl/application/wechat/view/tags.form.html";i:1519401702;}*/ ?>
 <form class="layui-form layui-box" style='padding:25px 30px 20px 0' action="__SELF__" data-auto="true" method="post">
 
     <div class="layui-form-item">
@@ -18,10 +18,10 @@
         <label class="layui-form-label">底部导航</label>
         <div class="layui-input-block">
             <label class="think-radio">
-                <input <?php echo (isset($vo['ismenu']) && ($vo['ismenu'] !== '')?$vo['ismenu']:"0")=="1"?"checked":""; ?>  type="radio" name="ismenu" value="1" lay-ignore> 有 
+                <input <?php echo (isset($vo['ismenu']) && ($vo['ismenu'] !== '')?$vo['ismenu']:"0")=="1"?"checked": ""; ?> type="radio" name="ismenu" value="1" lay-ignore> 有
             </label>
             <label class="think-radio">
-                <input <?php echo (isset($vo['ismenu']) && ($vo['ismenu'] !== '')?$vo['ismenu']:"0")=="0"?"checked":""; ?>  type="radio" name="ismenu" value="0" lay-ignore> 无
+                <input <?php echo (isset($vo['ismenu']) && ($vo['ismenu'] !== '')?$vo['ismenu']:"0")=="0"?"checked": ""; ?> type="radio" name="ismenu" value="0" lay-ignore> 无
             </label>
         </div>
     </div>
@@ -43,13 +43,7 @@
     <div class="layui-form-item">
         <label class="layui-form-label">上架平台</label>
         <div class="layui-input-block">
-            <select name='center' class='layui-select full-width'>
-               
-                <option  value=''>请选择上架平台<?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:""); ?></option>
-                <?php foreach($marklist as $key=>$mk): ?>
-                    <option <?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:"")==$key?"selected":""; ?> value='<?php echo $key; ?>'><?php echo $mk; ?></option>
-                <?php endforeach; ?>
-            </select>
+            <input type="text" name="center" value='<?php echo (isset($vo['center']) && ($vo['center'] !== '')?$vo['center']:""); ?>' placeholder="上架平台" class="layui-input">
         </div>
     </div>
     <div class="layui-form-item">
@@ -59,21 +53,20 @@
             <?php if((session('user.username'))=="admin"): ?>
             <select name='username' class='layui-select full-width'>
                 <?php foreach($users as $user): if((isset($vo['username']) and $user['username']==$vo['username'])): ?>
-                    <option selected value='<?php echo $user['username']; ?>'>  <?php echo $user['username']; ?></option>
-                    <?php else: ?>
-                    <option value='<?php echo $user['username']; ?>'>  <?php echo $user['username']; ?></option>
-                    <?php endif; endforeach; ?>
-                
-            </select> 
+                <option selected value='<?php echo $user['username']; ?>'> <?php echo $user['username']; ?></option>
+                <?php else: ?>
+                <option value='<?php echo $user['username']; ?>'> <?php echo $user['username']; ?></option>
+                <?php endif; endforeach; ?>
+
+            </select>
             <?php else: ?>
-            <input type="text" name="username" value="<?php echo session('user.username'); ?>" readonly class="layui-input">
-             <?php endif; ?>
+            <input type="text" name="username" value="<?php echo session('user.username'); ?>" readonly class="layui-input"> <?php endif; ?>
         </div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">APP下载地址</label>
         <div class="layui-input-block">
-            <input type="text" name="appurl" value='<?php echo (isset($vo['appurl']) && ($vo['appurl'] !== '')?$vo['appurl']:""); ?>' placeholder="上架成功后填写" class="layui-input">
+                <textarea placeholder="请输入备注" title="上架成功后填写" class="layui-textarea" name="appurl"><?php echo (isset($vo['appurl']) && ($vo['appurl'] !== '')?$vo['appurl']:""); ?></textarea>
         </div>
     </div>
 
@@ -81,7 +74,8 @@
 
     <div class="layui-form-item text-center">
 
-        <?php if(isset($vo['id'])): ?><input type='hidden' value='<?php echo $vo['id']; ?>' name='id' /><?php endif; ?>
+        <?php if(isset($vo['id'])): ?>
+        <input type='hidden' value='<?php echo $vo['id']; ?>' name='id' /><?php endif; ?>
 
         <button class="layui-btn" type='submit'>保存数据</button>
 

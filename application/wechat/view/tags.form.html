@@ -17,10 +17,10 @@
         <label class="layui-form-label">底部导航</label>
         <div class="layui-input-block">
             <label class="think-radio">
-                <input {$vo.ismenu|default="0"=="1"?"checked":""}  type="radio" name="ismenu" value="1" lay-ignore> 有 
+                <input {$vo.ismenu|default="0"=="1" ? "checked": ""} type="radio" name="ismenu" value="1" lay-ignore> 有
             </label>
             <label class="think-radio">
-                <input {$vo.ismenu|default="0"=="0"?"checked":""}  type="radio" name="ismenu" value="0" lay-ignore> 无
+                <input {$vo.ismenu|default="0"=="0" ? "checked": ""} type="radio" name="ismenu" value="0" lay-ignore> 无
             </label>
         </div>
     </div>
@@ -42,13 +42,7 @@
     <div class="layui-form-item">
         <label class="layui-form-label">上架平台</label>
         <div class="layui-input-block">
-            <select name='center' class='layui-select full-width'>
-               
-                <option  value=''>请选择上架平台{$vo.center|default=""}</option>
-                {foreach $marklist as $key=>$mk}
-                    <option {$vo.center|default=""==$key?"selected":""} value='{$key}'>{$mk}</option>
-                {/foreach}
-            </select>
+            <input type="text" name="center" value='{$vo.center|default=""}' placeholder="上架平台" class="layui-input">
         </div>
     </div>
     <div class="layui-form-item">
@@ -57,24 +51,21 @@
         <div class="layui-input-block">
             {if(session('user.username'))=="admin"}
             <select name='username' class='layui-select full-width'>
-                {foreach $users as $user}
-                    {if(isset($vo.username) and $user['username']==$vo['username'])}
-                    <option selected value='{$user.username}'>  {$user.username}</option>
-                    {else}
-                    <option value='{$user.username}'>  {$user.username}</option>
-                    {/if}
-                {/foreach}
-                
-            </select> 
+                {foreach $users as $user} {if(isset($vo.username) and $user['username']==$vo['username'])}
+                <option selected value='{$user.username}'> {$user.username}</option>
+                {else}
+                <option value='{$user.username}'> {$user.username}</option>
+                {/if} {/foreach}
+
+            </select>
             {else}
-            <input type="text" name="username" value="{:session('user.username')}" readonly class="layui-input">
-             {/if}
+            <input type="text" name="username" value="{:session('user.username')}" readonly class="layui-input"> {/if}
         </div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">APP下载地址</label>
         <div class="layui-input-block">
-            <input type="text" name="appurl" value='{$vo.appurl|default=""}' placeholder="上架成功后填写" class="layui-input">
+                <textarea placeholder="请输入备注" title="上架成功后填写" class="layui-textarea" name="appurl">{$vo.appurl|default=""}</textarea>
         </div>
     </div>
 
@@ -82,7 +73,8 @@
 
     <div class="layui-form-item text-center">
 
-        {if isset($vo['id'])}<input type='hidden' value='{$vo.id}' name='id' />{/if}
+        {if isset($vo['id'])}
+        <input type='hidden' value='{$vo.id}' name='id' />{/if}
 
         <button class="layui-btn" type='submit'>保存数据</button>
 
