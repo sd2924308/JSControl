@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/fans.index.html";i:1519372950;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/fans.index.html";i:1519372968;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
 <div class="ibox">
     
     <?php if(isset($title)): ?>
@@ -68,7 +68,6 @@
         display: block;
         min-height: 20px;
         width: 100%;
-        text-align: left;
     }
 
     .hide {

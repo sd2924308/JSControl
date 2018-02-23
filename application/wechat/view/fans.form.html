@@ -5,25 +5,27 @@
             {foreach $apps as $app} {if $vo.appid==$app.colurl} {$app.appname} {/if} {/foreach}
         </div>
     </div>
+    {if(session('user.username'))=="admin"}
     <div class="layui-form-item">
         <label class="layui-form-label">市场来源</label>
         <div class="layui-input-block" style="line-height: 36px;">
             {foreach $marklist as $key=>$mk} {if $vo.appmarket==$key} {$mk} {/if} {/foreach}
         </div>
     </div>
+    {/if}
     <div class="layui-form-item">
         <label class="layui-form-label">姓名</label>
-        <div class="layui-input-block"  style="line-height: 36px;">
-            {$vo.username|default=""}
-            <!-- <input type="text" name="username" value='{$vo.username|default=""}' required="required" title="姓名" placeholder="请输入姓名" class="layui-input"> -->
+        <div class="layui-input-block" style="line-height: 36px;">
+            {if(session('user.username'))=="admin"}
+            <input type="text" name="username" value='{$vo.username|default=""}' required="required" title="姓名" placeholder="请输入姓名" class="layui-input"> {else} {$vo.username|default=""} {/if}
         </div>
     </div>
 
     <div class="layui-form-item">
         <label class="layui-form-label">电话</label>
-        <div class="layui-input-block"  style="line-height: 36px;">
-            {$vo.tel|default=""}
-            <!-- <input type="text" name="tel" value='{$vo.tel|default=""}' required="required" title="电话" placeholder="请输入电话" class="layui-input"> -->
+        <div class="layui-input-block" style="line-height: 36px;">
+            {if(session('user.username'))=="admin"}
+            <input type="text" name="tel" value='{$vo.tel|default=""}' required="required" title="电话" placeholder="请输入电话" class="layui-input"> {else}{$vo.tel|default=""}{/if}
         </div>
     </div>
     <div class="layui-form-item">

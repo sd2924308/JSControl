@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"/Users/yanglong/phpProject/JSControl/application/wechat/view/fans.form.html";i:1519370578;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"/Users/yanglong/phpProject/JSControl/application/wechat/view/fans.form.html";i:1519376310;}*/ ?>
 <form class="layui-form layui-box" style='padding:25px 30px 20px 0' action="__SELF__" data-auto="true" method="post">
     <div class="layui-form-item">
         <label class="layui-form-label">所属应用</label>
@@ -6,25 +6,27 @@
             <?php foreach($apps as $app): if($vo['appid']==$app['colurl']): ?> <?php echo $app['appname']; endif; endforeach; ?>
         </div>
     </div>
+    <?php if((session('user.username'))=="admin"): ?>
     <div class="layui-form-item">
         <label class="layui-form-label">市场来源</label>
         <div class="layui-input-block" style="line-height: 36px;">
             <?php foreach($marklist as $key=>$mk): if($vo['appmarket']==$key): ?> <?php echo $mk; endif; endforeach; ?>
         </div>
     </div>
+    <?php endif; ?>
     <div class="layui-form-item">
         <label class="layui-form-label">姓名</label>
-        <div class="layui-input-block"  style="line-height: 36px;">
-            <?php echo (isset($vo['username']) && ($vo['username'] !== '')?$vo['username']:""); ?>
-            <!-- <input type="text" name="username" value='<?php echo (isset($vo['username']) && ($vo['username'] !== '')?$vo['username']:""); ?>' required="required" title="姓名" placeholder="请输入姓名" class="layui-input"> -->
+        <div class="layui-input-block" style="line-height: 36px;">
+            <?php if((session('user.username'))=="admin"): ?>
+            <input type="text" name="username" value='<?php echo (isset($vo['username']) && ($vo['username'] !== '')?$vo['username']:""); ?>' required="required" title="姓名" placeholder="请输入姓名" class="layui-input"> <?php else: ?> <?php echo (isset($vo['username']) && ($vo['username'] !== '')?$vo['username']:""); endif; ?>
         </div>
     </div>
 
     <div class="layui-form-item">
         <label class="layui-form-label">电话</label>
-        <div class="layui-input-block"  style="line-height: 36px;">
-            <?php echo (isset($vo['tel']) && ($vo['tel'] !== '')?$vo['tel']:""); ?>
-            <!-- <input type="text" name="tel" value='<?php echo (isset($vo['tel']) && ($vo['tel'] !== '')?$vo['tel']:""); ?>' required="required" title="电话" placeholder="请输入电话" class="layui-input"> -->
+        <div class="layui-input-block" style="line-height: 36px;">
+            <?php if((session('user.username'))=="admin"): ?>
+            <input type="text" name="tel" value='<?php echo (isset($vo['tel']) && ($vo['tel'] !== '')?$vo['tel']:""); ?>' required="required" title="电话" placeholder="请输入电话" class="layui-input"> <?php else: ?><?php echo (isset($vo['tel']) && ($vo['tel'] !== '')?$vo['tel']:""); endif; ?>
         </div>
     </div>
     <div class="layui-form-item">
