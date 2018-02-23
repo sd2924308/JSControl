@@ -2,35 +2,28 @@
     <div class="layui-form-item">
         <label class="layui-form-label">所属应用</label>
         <div class="layui-input-block" style="line-height: 36px;">
-            <select name='appid' class='layui-select full-width'>
-                {foreach $apps as $app}
-                <option {$vo.appid|default=""==$app.colurl? "selected": ""} value='{$app.colurl}'>{$app.appname}</option>
-
-                {/foreach}
-            </select>
+            {foreach $apps as $app} {if $vo.appid==$app.colurl} {$app.appname} {/if} {/foreach}
         </div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">市场来源</label>
         <div class="layui-input-block" style="line-height: 36px;">
-            <select name='appmarket' class='layui-select full-width'>
-                {foreach $marklist as $key=>$mk}
-                <option {$vo.appmarket|default=""==$key? "selected": ""} value='{$key}'>{$mk}</option>
-                {/foreach}
-            </select>
+            {foreach $marklist as $key=>$mk} {if $vo.appmarket==$key} {$mk} {/if} {/foreach}
         </div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">姓名</label>
-        <div class="layui-input-block">
-            <input type="text" name="username" value='{$vo.username|default=""}' required="required" title="姓名" placeholder="请输入姓名" class="layui-input">
+        <div class="layui-input-block"  style="line-height: 36px;">
+            {$vo.username|default=""}
+            <!-- <input type="text" name="username" value='{$vo.username|default=""}' required="required" title="姓名" placeholder="请输入姓名" class="layui-input"> -->
         </div>
     </div>
 
     <div class="layui-form-item">
         <label class="layui-form-label">电话</label>
-        <div class="layui-input-block">
-            <input type="text" name="tel" value='{$vo.tel|default=""}' required="required" title="电话" placeholder="请输入电话" class="layui-input">
+        <div class="layui-input-block"  style="line-height: 36px;">
+            {$vo.tel|default=""}
+            <!-- <input type="text" name="tel" value='{$vo.tel|default=""}' required="required" title="电话" placeholder="请输入电话" class="layui-input"> -->
         </div>
     </div>
     <div class="layui-form-item">

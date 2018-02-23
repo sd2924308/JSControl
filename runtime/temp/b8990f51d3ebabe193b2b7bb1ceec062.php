@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/fans.index.html";i:1512839742;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/fans.index.html";i:1519372234;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
 <div class="ibox">
     
     <?php if(isset($title)): ?>
@@ -41,22 +41,31 @@
         border-radius: 5px;
         width: 100px
     }
-    .ztlist li{
+
+    .ztlist li {
         line-height: 25px;
         border-bottom: solid 1px #333;
     }
-    .ztlist li:hover{
+
+    .ztlist li:hover {
         background: #ddd;
     }
-    .ztlist li a:hover{
+
+    .ztlist li a:hover {
         text-decoration: none;
     }
-    .ztlist li:last-child{
+
+    .ztlist li:last-child {
         border: none
     }
+
     .pztlist:hover .ztlist,
     .ztlist:hover {
         display: block;
+    }
+
+    .hide {
+        display: none;
     }
 </style>
 
@@ -88,7 +97,7 @@
                 <th class='text-center' width="100px">电话</th>
                 <th class='text-center' width="100px">APP名称</th>
                 <th class='text-center' width="80px">用户状态</th>
-                <th class='text-center' width="100px">APP市场</th>
+                <!-- <th class='text-center' width="100px">APP市场</th> -->
                 <th class='text-center'>备注</th>
                 <th class='text-center' width="100px">操作</th>
             </tr>
@@ -105,7 +114,6 @@
                 <td class='text-center'><?php echo (isset($vo['tel']) && ($vo['tel'] !== '')?$vo['tel']:''); ?></td>
                 <td class='text-center'><?php echo (isset($vo['appname']) && ($vo['appname'] !== '')?$vo['appname']:''); ?></td>
                 <td class='text-center pztlist'>
-                    <a target=_ blank href="/api/whereis?id=<?php echo (isset($vo['colurl']) && ($vo['colurl'] !== '')?$vo['colurl']:''); ?>"><?php echo (isset($vo['colurl']) && ($vo['colurl'] !== '')?$vo['colurl']:''); ?></a>
                     <?php if($vo['usataus'] == 0): ?>
                     <span style="font-size: 11px;color: red">【未审核】</span>
                     <?php elseif($vo['usataus'] == 1): ?>
@@ -118,21 +126,28 @@
 
                     <ul class="ztlist">
                         <li>
-                            <a  data-update="<?php echo $vo['id']; ?>" data-field='usataus' data-value='0' data-action='<?php echo url("$classuri/upsta"); ?>' data-confirm="0" href="javascript:void(0)" style="font-size: 11px;color: red">【未审核】</a>
+                            <a data-update="<?php echo $vo['id']; ?>" data-field='usataus' data-value='0' data-action='<?php echo url("$classuri/upsta"); ?>' data-confirm="0" href="javascript:void(0)"
+                                style="font-size: 11px;color: red">【未审核】</a>
                         </li>
                         <li>
-                            <a  data-update="<?php echo $vo['id']; ?>" data-field='usataus' data-value='1' data-action='<?php echo url("$classuri/upsta"); ?>' data-confirm="0" href="javascript:void(0)" style="font-size: 11px;color: green">【已审核】</a>
+                            <a data-update="<?php echo $vo['id']; ?>" data-field='usataus' data-value='1' data-action='<?php echo url("$classuri/upsta"); ?>' data-confirm="0" href="javascript:void(0)"
+                                style="font-size: 11px;color: green">【已审核】</a>
                         </li>
                         <li>
-                            <a  data-update="<?php echo $vo['id']; ?>" data-field='usataus' data-value='2' data-action='<?php echo url("$classuri/upsta"); ?>' data-confirm="0"  href="javascript:void(0)" style="font-size: 11px;color: black">【黑名单】</a>
+                            <a data-update="<?php echo $vo['id']; ?>" data-field='usataus' data-value='2' data-action='<?php echo url("$classuri/upsta"); ?>' data-confirm="0" href="javascript:void(0)"
+                                style="font-size: 11px;color: black">【黑名单】</a>
                         </li>
                         <li>
-                            <a  data-update="<?php echo $vo['id']; ?>" data-field='usataus' data-value='3' data-action='<?php echo url("$classuri/upsta"); ?>' data-confirm="0"  href="javascript:void(0)" style="font-size: 11px;color: gold"> 【VIP】</a>
+                            <a data-update="<?php echo $vo['id']; ?>" data-field='usataus' data-value='3' data-action='<?php echo url("$classuri/upsta"); ?>' data-confirm="0" href="javascript:void(0)"
+                                style="font-size: 11px;color: gold"> 【VIP】</a>
                         </li>
                     </ul>
                 </td>
-                <td class='text-center'><?php echo (isset($vo['appmarket']) && ($vo['appmarket'] !== '')?$vo['appmarket']:''); ?></td>
-                <td class='text-center'><?php echo (isset($vo['remark']) && ($vo['remark'] !== '')?$vo['remark']:''); ?></td>
+                <!-- <td class='text-center'><?php echo (isset($vo['appmarket']) && ($vo['appmarket'] !== '')?$vo['appmarket']:''); ?></td> -->
+                <td class='text-center'>
+                    <span class="staredit"><?php echo (isset($vo['remark']) && ($vo['remark'] !== '')?$vo['remark']:''); ?></span>
+                    <input type="text" value='<?php echo (isset($vo['remark']) && ($vo['remark'] !== '')?$vo['remark']:""); ?>' class="layui-input markedit hide" data-id="<?php echo $vo['id']; ?>" data-field='remark'>
+                </td>
                 <td class='text-center nowrap'>
                     <?php if(auth("$classuri/edit")): ?>
                     <span class="text-explode">|</span>
@@ -159,6 +174,30 @@
 <script>
     (function () {
         window.form.render();
+        $('.staredit').click(function () {
+            $(this).addClass('hide');
+            $(this).next().removeClass('hide');
+            $(this).next().focus();
+        })
+        $('.markedit').blur(function () {
+            $(this).addClass('hide');
+            $(this).prev().removeClass('hide');
+            var revstr = $(this).val();
+            var field = $(this).attr('data-field');
+            var rid = $(this).attr('data-id');
+            var eipt = $(this).prev();
+            $.post('<?php echo url("$classuri/upsta"); ?>', {
+                field: field,
+                value: revstr,
+                id: rid
+            }, function (data) {
+                if (data.code == '1') {
+                    eipt.html(revstr)
+                } else {
+                    alert(data.msg);
+                }
+            })
+        })
     })();
 </script>
 

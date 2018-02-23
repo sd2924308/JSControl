@@ -52,10 +52,7 @@ class Fans extends BasicAdmin
         //         $db->where($key, 'like', "%{$get[$key]}%");
         //     }
         // }
-        $appid = $this->request->get('appid','');
-        if($appid != '')
-            $db->where(['appid' => $appid]);
-        
+     
 
         
         if(session('user.username')!='admin')
@@ -64,9 +61,18 @@ class Fans extends BasicAdmin
             $applist= Db::name('AppTable')->select();
 
         $this->assign('apps',$applist);
-
-        // if(session('user.username')!='admin')
-        //     $db->where('username',session('user.username'));
+        
+        $arr=array(); 
+        foreach($applist as &$app){
+            array_push($arr,$app['colurl']);
+        }
+        
+        $appid = $this->request->get('appid','');
+        
+        if(session('user.username')!='admin')
+            $db->where('appid','in',$arr);
+       if($appid != '')
+            $db->where(['appid' => $appid]);
         return parent::_list($db);
     }
 
