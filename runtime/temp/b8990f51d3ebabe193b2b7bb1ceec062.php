@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/fans.index.html";i:1519377436;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:76:"/Users/yanglong/phpProject/JSControl/application/wechat/view/fans.index.html";i:1519378263;s:78:"/Users/yanglong/phpProject/JSControl/application/extra/view/admin.content.html";i:1506619972;}*/ ?>
 <div class="ibox">
     
     <?php if(isset($title)): ?>
@@ -95,8 +95,10 @@
                 <th class='text-center' width="80px">姓名</th>
                 <th class='text-center' width="100px">电话</th>
                 <th class='text-center' width="100px">APP名称</th>
+                <?php if((session('user.username'))=="admin"): ?>
+                <th class='text-center' width="100px">来源市场</th>
+                <?php endif; ?>
                 <th class='text-center' width="80px">用户状态</th>
-                <!-- <th class='text-center' width="100px">APP市场</th> -->
                 <th class='text-center'>备注</th>
                 <th class='text-center' width="100px">操作</th>
             </tr>
@@ -112,6 +114,9 @@
 
                 <td class='text-center'><?php echo (isset($vo['tel']) && ($vo['tel'] !== '')?$vo['tel']:''); ?></td>
                 <td class='text-center'><?php echo (isset($vo['appname']) && ($vo['appname'] !== '')?$vo['appname']:''); ?></td>
+                <?php if((session('user.username'))=="admin"): ?>
+                <td class='text-center'><?php echo (isset($vo['appmarket']) && ($vo['appmarket'] !== '')?$vo['appmarket']:''); ?></td> 
+                <?php endif; ?>
                 <td class='text-center pztlist'>
                     <?php if($vo['usataus'] == 0): ?>
                     <span style="font-size: 11px;color: red">【未审核】</span>
@@ -142,7 +147,7 @@
                         </li>
                     </ul>
                 </td>
-                <!-- <td class='text-center'><?php echo (isset($vo['appmarket']) && ($vo['appmarket'] !== '')?$vo['appmarket']:''); ?></td> -->
+ 
                 <td class='text-center'>
                     <span class="staredit"><?php echo (isset($vo['remark']) && ($vo['remark'] !== '')?$vo['remark']:''); ?></span>
                     <input type="text" value='<?php echo (isset($vo['remark']) && ($vo['remark'] !== '')?$vo['remark']:""); ?>' class="layui-input markedit hide" data-id="<?php echo $vo['id']; ?>" data-field='remark'>

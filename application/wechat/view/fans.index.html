@@ -77,8 +77,10 @@
                 <th class='text-center' width="80px">姓名</th>
                 <th class='text-center' width="100px">电话</th>
                 <th class='text-center' width="100px">APP名称</th>
+                {if(session('user.username'))=="admin"}
+                <th class='text-center' width="100px">来源市场</th>
+                {/if}
                 <th class='text-center' width="80px">用户状态</th>
-                <!-- <th class='text-center' width="100px">APP市场</th> -->
                 <th class='text-center'>备注</th>
                 <th class='text-center' width="100px">操作</th>
             </tr>
@@ -94,6 +96,9 @@
 
                 <td class='text-center'>{$vo.tel|default=''}</td>
                 <td class='text-center'>{$vo.appname|default=''}</td>
+                {if(session('user.username'))=="admin"}
+                <td class='text-center'>{$vo.appmarket|default=''}</td> 
+                {/if}
                 <td class='text-center pztlist'>
                     {if $vo.usataus eq 0}
                     <span style="font-size: 11px;color: red">【未审核】</span>
@@ -124,7 +129,7 @@
                         </li>
                     </ul>
                 </td>
-                <!-- <td class='text-center'>{$vo.appmarket|default=''}</td> -->
+ 
                 <td class='text-center'>
                     <span class="staredit">{$vo.remark|default=''}</span>
                     <input type="text" value='{$vo.remark|default=""}' class="layui-input markedit hide" data-id="{$vo.id}" data-field='remark'>
