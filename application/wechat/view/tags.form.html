@@ -82,7 +82,8 @@
     <div class="layui-form-item">
         <label class="layui-form-label">APP下载地址</label>
         <div class="layui-input-block">
-            <input type="text" name="appurl" value='{$vo.appurl|default=""}' placeholder="上架成功后填写" class="layui-input">
+                <textarea name="appurl" class="layui-input"  placeholder="上架成功后填写" style="height:80px;resize:none;line-height:20px">{$vo.appurl|default=""}</textarea>
+            <!-- <input type="text" name="appurl" value='{$vo.appurl|default=""}' placeholder="上架成功后填写" class="layui-input"> -->
         </div>
     </div>
 
