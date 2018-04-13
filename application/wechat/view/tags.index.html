@@ -84,9 +84,9 @@
                 <td class='text-center'>{$vo.id|default='0'}</td>
                 <td class='text-center'>
                     {$vo.appname|default=''}
-                    <!-- {if $vo.appurl neq '' }
+                    {if $vo.appurl neq '' }
                     <a href='{$vo.appurl}' target="_blank" style="font-size: 11px;color: green">【APP链接】</a> 
-                    {/if} -->
+                    {/if}
                 </td>
                 <td class='text-center'>{$vo.center|default=''}</td>
                 <td class='text-center'><a target= _blank href="/api/whereis?id={$vo.colurl|default=''}">{$vo.colurl|default=''}</a>
